@@ -5,7 +5,7 @@
 <br>
 
 
-##The goal:
+## The goal:
 
 1. collect the data from a CSV file
 2. count the ADR (average death rate) from years 2015-2019 and 2020+
@@ -16,4 +16,4 @@
 
 
 
-##Project idea:
+## Project idea:
