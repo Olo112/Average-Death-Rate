@@ -27,4 +27,4 @@
 1. Testing if matplotlib will plot a graph and make a png extension image:
 
 
-<img src="screenshots/screenshot_00.png" width="500" height="350">
+<img src="screenshots/screenshot_00.png" width="250" height="250">
