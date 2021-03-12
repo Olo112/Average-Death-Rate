@@ -12,12 +12,12 @@ from matplotlib import pyplot as plt        # for plots
 
 ls_2 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]
 
-ls_years = [1, 2, 3]
+ls_years = [1, 2, 3, 4]
 
 ls_00 = [4442, 4545, 4666, 3992, 4333, 4567, 4862, 4532, 4091]
 ls_01 = [4444, 4555, 4866, 4992, 4339, 4537, 4962, 3532, 4092]
 ls_02 = [4440, 4595, 4066, 4692, 4634, 4687, 4762, 4932, 3091]
-
+ls_03 = [3077, 3471, 4244, 4956, 3834, 3844, 3844, 4611, 3285]
 
 
 s_scv_file = 'file_name.txt'
@@ -81,10 +81,12 @@ if (__name__ == '__main__'):
     ls_data_00 = find_data(ls_00)
     ls_data_01 = find_data(ls_01)
     ls_data_02 = find_data(ls_02)
+    ls_data_03 = find_data(ls_03)
 
     ls_main_data.append(ls_data_00[0])
     ls_main_data.append(ls_data_01[0])
     ls_main_data.append(ls_data_02[0])
+    ls_main_data.append(ls_data_03[0])
 
     plt.xlabel("years from 2015")
     plt.ylabel("average deaths")
