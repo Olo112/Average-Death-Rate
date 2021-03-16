@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="adding images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615811961739</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add a read_data to main project file">
+      <created>1615935170643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615935170643</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -152,6 +160,7 @@
     <MESSAGE value="adding images" />
     <MESSAGE value="cleaning up the main python file" />
     <MESSAGE value="adding the source .csv file" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the source .csv file" />
+    <MESSAGE value="add a read_data to main project file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a read_data to main project file" />
   </component>
 </project>

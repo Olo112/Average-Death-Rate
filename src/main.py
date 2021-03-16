@@ -54,7 +54,6 @@ def find_data(ls_file):
     ls_data_01.append(element_sum)
     if(_DBG9_): print(ls_data_01, '\nls_data_01 length =', file_len)
 
-
     return ls_data_01   #ls_data_02
 
 
@@ -74,24 +73,25 @@ def read_data(csv_file_name):
     file = open(csv_file_name, 'r')     # opening and reading the input file
     reader = csv.reader(file)
 
+    i = 0
     for line in reader:
+        if(line[1] != ''):
+            ls_data.append(line[1])
 
-        for e in line:
-            if (_DBG1_): print(e)
+        else:
+            pass
+
+        # for e in line:
+        #     if (_DBG1_): print(e)
 
         # i = i+1
         # print(line[i])
         #if (_DBG9_): print(line)
 
-
         # ls_data.append(line[1])
         # ls_data.append(line)                     # printing every read line
-    
-    # plt.plot(line)
-    # plt.grid(True)
-    # plt.show()
-
-    return
+    del ls_data[0]
+    return ls_data
 
 
 
@@ -106,7 +106,13 @@ if (__name__ == '__main__'):
     # rd_file = read
     # found_data = find_data(s_scv_file)
 
-    read_data(s_scv_file)
+    read_file = read_data(s_scv_file)
+    print(read_file)
+
+    plt.plot(read_file, label='deaths in 2015', marker='o', linewidth=1.0, animated=True)
+
+    plt.grid()
+    plt.show()
 
 
     '''
