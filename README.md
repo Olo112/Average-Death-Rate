@@ -1,6 +1,6 @@
 # Average-Death-Rate
 
-**Average death rate count**
+**Average death rate count in Poland**
 
 <br>
 
@@ -27,7 +27,21 @@ death statistics from 1 september 2015
 
 ## Tests:
 
-1. Testing if matplotlib will plot a graph and make a png extension image:
+Just to show how does matplotlib work:
 
 <img src="screenshots/screenshot_00.png" width="300" height="225">
 <img src="screenshots/screenshot_01.png" width="300" height="225">
+
+In the real project, I will have two plots on one displayed interface. Those are
+divided into subplots, which in this case, there will be two of them.
+
+
+<br>
+
+
+
+## Project screenshots:
+The idea of the first plot. This data is from the actual source (not the one from
+my code).
+
+<img src="screenshots/proj_fig_00.png" width="300" height="225">

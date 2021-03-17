@@ -131,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615988638215</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="converting data from str to int">
+      <created>1615994139228</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615994139228</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -177,6 +184,7 @@
     <MESSAGE value="add a read_data to main project file" />
     <MESSAGE value="reading the first data from source" />
     <MESSAGE value="add test img" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test img" />
+    <MESSAGE value="converting data from str to int" />
+    <option name="LAST_COMMIT_MESSAGE" value="converting data from str to int" />
   </component>
 </project>
