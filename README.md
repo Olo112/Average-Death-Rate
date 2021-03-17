@@ -37,12 +37,13 @@ In the real project, I will have two plots on one displayed interface. Those are
 divided into subplots, which in this case, there will be two of them.
 
 
+
 <br>
-
-
 
 ## Project screenshots:
 The idea of the first plot. This data is from the actual source (not the one from
 my code).
 
-<img src="screenshots/proj_fig_00.png" width="300" height="225">
+<div float="left">
+    <img src="screenshots/proj_fig_00.png" width="300" height="225">
+</div>
