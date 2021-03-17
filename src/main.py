@@ -28,7 +28,7 @@ s_scv_file = 'liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv'        # example
 
 _DBG0_ = True						# Errors
 _DBG1_ = True						# Warnings
-_DBG9_ = False						# Standard debug
+_DBG9_ = True						# Standard debug
 
 
 
@@ -68,30 +68,29 @@ def read_data(csv_file_name):
     '''
 
     global ls_data
+
     ls_data = []
 
-    file = open(csv_file_name, 'r')     # opening and reading the input file
+    file = open(csv_file_name, 'r')
     reader = csv.reader(file)
 
-    i = 0
     for line in reader:
-        if(line[1] != ''):
+        if (line[1] != ''):
             ls_data.append(line[1])
 
         else:
             pass
 
-        # for e in line:
-        #     if (_DBG1_): print(e)
+    del ls_data[0]      # delete first element
+    ls_data = [int(element) for element in ls_data]
 
-        # i = i+1
-        # print(line[i])
-        #if (_DBG9_): print(line)
+    l = len(ls_data)
+    el_sum = sum(ls_data)
+    avr = (el_sum)/l
 
-        # ls_data.append(line[1])
-        # ls_data.append(line)                     # printing every read line
-    del ls_data[0]
-    return ls_data
+    if (_DBG9_): print(avr)        # debugger
+
+    return #avr
 
 
 
@@ -101,18 +100,14 @@ def read_data(csv_file_name):
 
 if (__name__ == '__main__'):
 
-    # pen the file and read it
-    # op_file = open(s_scv_file)
-    # rd_file = read
-    # found_data = find_data(s_scv_file)
-
     read_file = read_data(s_scv_file)
-    print(read_file)
+    if (_DBG9_): print(read_file)
 
-    plt.plot(read_file, label='deaths in 2015', marker='o', linewidth=1.0, animated=True)
+    # plt.plot(read_file, label='deaths in 2015', marker='o', linewidth=2.0)
 
-    plt.grid()
-    plt.show()
+    # plt.grid()
+    # plt.show()
+
 
 
     '''

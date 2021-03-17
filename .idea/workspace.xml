@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="adding images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615935170643</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="reading the first data from source">
+      <created>1615937066632</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615937066632</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add test img">
+      <created>1615988638215</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615988638215</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -161,6 +175,8 @@
     <MESSAGE value="cleaning up the main python file" />
     <MESSAGE value="adding the source .csv file" />
     <MESSAGE value="add a read_data to main project file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a read_data to main project file" />
+    <MESSAGE value="reading the first data from source" />
+    <MESSAGE value="add test img" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test img" />
   </component>
 </project>
