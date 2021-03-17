@@ -28,9 +28,10 @@ death statistics from 1 september 2015
 ## Tests:
 
 Just to show how does matplotlib work:
-
-<img src="screenshots/screenshot_00.png" width="300" height="225">
-<img src="screenshots/screenshot_01.png" width="300" height="225">
+<p float="left">
+    <img src="screenshots/screenshot_00.png" width="300" height="225">
+    <img src="screenshots/screenshot_01.png" width="300" height="225">
+</p>
 
 In the real project, I will have two plots on one displayed interface. Those are
 divided into subplots, which in this case, there will be two of them.
