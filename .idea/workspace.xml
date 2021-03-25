@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="adding images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +137,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615994139228</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding actual project plot screenshot">
+      <created>1615994591286</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615994591286</updated>
+    </task>
+    <task id="LOCAL-00013" summary="updating readme">
+      <created>1615994804754</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615994804754</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updating readme">
+      <created>1615995521155</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615995521155</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -185,6 +205,8 @@
     <MESSAGE value="reading the first data from source" />
     <MESSAGE value="add test img" />
     <MESSAGE value="converting data from str to int" />
-    <option name="LAST_COMMIT_MESSAGE" value="converting data from str to int" />
+    <MESSAGE value="adding actual project plot screenshot" />
+    <MESSAGE value="updating readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating readme" />
   </component>
 </project>
