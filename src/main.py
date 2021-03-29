@@ -1,3 +1,16 @@
+
+
+'''
+WHAT IM DOING:
+
+
+
+'''
+
+
+
+
+
 #======================================================================
 #   IMPORTS:
 #======================================================================
@@ -75,6 +88,7 @@ def read_data(csv_file_name, row_num):
 
     file = open(csv_file_name, 'r')
     reader = csv.reader(file)
+    if (_DBG9_): print(reader)
 
     for line in reader:     # going through whole read .csv file line
         if (line[1] != ''):
@@ -94,6 +108,19 @@ def read_data(csv_file_name, row_num):
 
     return avr
 
+
+
+def read_all_rows(file_name):
+    '''
+    input:
+        file_name:  source of data;
+
+    output:
+        ---
+    '''
+
+
+    return
 
 
 #======================================================================
