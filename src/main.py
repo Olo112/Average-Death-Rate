@@ -87,15 +87,17 @@ def read_data(csv_file_name, row_num):
     #if (_DBG9_): print(reader)
 
     for line in reader:     # going through whole read .csv file line
-        if (line[1] != ''):
+        if (line[row_num] != ''):
             ls_data.append(line[row_num])
-            # if (_DBG9_): print(line)
+            if (_DBG9_): print(line[row_num])
 
         else:
             pass
 
     del ls_data[0]      # delete first element which is the date
     ls_data = [int(element) for element in ls_data]     # changing all elements to int()
+    if (_DBG9_): print(ls_data)
+
 
     l = len(ls_data)
     el_sum = sum(ls_data)
@@ -107,7 +109,7 @@ def read_data(csv_file_name, row_num):
 
 
 
-def collect_data(csv_file_name):
+def collect_data(csv_file_name, years_num):
     '''
     input:
         file_name:  source of data;
@@ -120,15 +122,17 @@ def collect_data(csv_file_name):
 
     ls_global_data = []
 
-    for i in range(2):
+    for i in range(0, years_num):
         read_row = read_data(csv_file_name, i)
         ls_global_data.append(read_row)
 
 
         if (_DBG9_): print('read_row =',read_row)
+        # if (_DBG9_): print('\n\nls_global_data =',ls_global_data)
 
     del ls_global_data[0]
 
+    if (_DBG9_): print('\n\nls_global_data =', ls_global_data)
 
     return ls_global_data
 
@@ -144,9 +148,11 @@ if (__name__ == '__main__'):
 
 
     print('----------------------------------------------')
-    print(collect_data(s_scv_file))
+    if (_DBG9_): print(collect_data(s_scv_file, 8))
 
-    plt.plot(read_file, label='deaths in 2015', marker='o', linewidth=2.0)
+    main_data = collect_data(s_scv_file, 8)
+
+    plt.plot(main_data, label='deaths in 2015', marker='o', linewidth=2.0)
 
     plt.grid()
     plt.show()
