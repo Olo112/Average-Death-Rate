@@ -7,10 +7,6 @@ WHAT IM DOING:
 
 '''
 
-
-
-
-
 #======================================================================
 #   IMPORTS:
 #======================================================================
@@ -88,29 +84,30 @@ def read_data(csv_file_name, row_num):
 
     file = open(csv_file_name, 'r')
     reader = csv.reader(file)
-    if (_DBG9_): print(reader)
+    #if (_DBG9_): print(reader)
 
     for line in reader:     # going through whole read .csv file line
         if (line[1] != ''):
             ls_data.append(line[row_num])
+            # if (_DBG9_): print(line)
 
         else:
             pass
 
     del ls_data[0]      # delete first element which is the date
-    ls_data = [int(element) for element in ls_data]
+    ls_data = [int(element) for element in ls_data]     # changing all elements to int()
 
     l = len(ls_data)
     el_sum = sum(ls_data)
     avr = (el_sum)/l
 
-    if (_DBG9_): print(avr)        # debugger
+    if (_DBG9_): print('avr =',avr)        # debugger
 
     return avr
 
 
 
-def read_all_rows(file_name):
+def collect_data(csv_file_name):
     '''
     input:
         file_name:  source of data;
@@ -119,8 +116,21 @@ def read_all_rows(file_name):
         ---
     '''
 
+    global ls_global_data
 
-    return
+    ls_global_data = []
+
+    for i in range(2):
+        read_row = read_data(csv_file_name, i)
+        ls_global_data.append(read_row)
+
+
+        if (_DBG9_): print('read_row =',read_row)
+
+    del ls_global_data[0]
+
+
+    return ls_global_data
 
 
 #======================================================================
@@ -130,8 +140,11 @@ def read_all_rows(file_name):
 if (__name__ == '__main__'):
 
     read_file = read_data(s_scv_file, 1)
-
     if (_DBG9_): print(read_file)
+
+
+    print('----------------------------------------------')
+    print(collect_data(s_scv_file))
 
     plt.plot(read_file, label='deaths in 2015', marker='o', linewidth=2.0)
 
