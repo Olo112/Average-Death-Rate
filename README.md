@@ -43,7 +43,7 @@ divided into subplots, which in this case, there will be two of them.
 ## Project screenshots:
 The idea of the first plot. This data is from the actual source (not the one from
 my code).
-
-<div float="left">
+<p>
     <img src="screenshots/proj_fig_00.png" width="300" height="225">
-</div>
+    <img src="screenshots/proj_fig_01.png" width="300" height="225">
+</p>

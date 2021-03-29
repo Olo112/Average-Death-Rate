@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="adding images">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="adding the output graph to src/screenshots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617021902959</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="adding all the values to main list for data visualisation">
+      <created>1617024327183</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1617024327184</updated>
+    </task>
+    <task id="LOCAL-00019" summary="adding the output graph to src/screenshots">
+      <created>1617024417368</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1617024417368</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -231,6 +245,8 @@
     <MESSAGE value="adding value of avr" />
     <MESSAGE value="adding read all rows function and debugging" />
     <MESSAGE value="appending all values to one global list" />
-    <option name="LAST_COMMIT_MESSAGE" value="appending all values to one global list" />
+    <MESSAGE value="adding all the values to main list for data visualisation" />
+    <MESSAGE value="adding the output graph to src/screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the output graph to src/screenshots" />
   </component>
 </project>
