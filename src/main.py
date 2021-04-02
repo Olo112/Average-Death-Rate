@@ -176,7 +176,7 @@ if (__name__ == '__main__'):
     
     plt.plot(ls_years, ls_main_data, color='blue', marker='o')
     plt.grid()
-    plt.show()              # displaying the plot
+    plt.show()              # displays the plot
     '''
 
 
