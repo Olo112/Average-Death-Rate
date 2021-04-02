@@ -170,14 +170,10 @@ if (__name__ == '__main__'):
 
     ls_data_00 = find_data(ls_00)
     ls_data_01 = find_data(ls_01)
-    ls_data_02 = find_data(ls_02)
-    ls_data_03 = find_data(ls_03)
 
     ls_main_data.append(ls_data_00[0])
     ls_main_data.append(ls_data_01[0])
-    ls_main_data.append(ls_data_02[0])
-    ls_main_data.append(ls_data_03[0])
-
+    
     plt.plot(ls_years, ls_main_data, color='blue', marker='o')
     plt.grid()
     plt.show()              # displaying the plot
