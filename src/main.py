@@ -158,6 +158,7 @@ if (__name__ == '__main__'):
     main_data = collect_data(s_scv_file, 8)
 
     plt.plot(main_data, label='deaths in 2015', marker='o', linewidth=2.0)
+    plt.xlabel("Years (from 2015)")
 
     plt.grid()
     plt.show()
@@ -176,7 +177,7 @@ if (__name__ == '__main__'):
     
     plt.plot(ls_years, ls_main_data, color='blue', marker='o')
     plt.grid()
-    plt.show()              # displaying the plot
+    plt.show()              # displays the plot
     '''
 
 
