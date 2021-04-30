@@ -128,10 +128,6 @@ def collect_data(csv_file_name, years_num):
     return ls_global_data
 
 
-#--------------------------------------------------
-#   more functions will come over soon
-#--------------------------------------------------
-
 
 #======================================================================
 #   MAIN:
@@ -153,6 +149,7 @@ if (__name__ == '__main__'):
 
     plt.grid()      # display grid in plot
     plt.show()      # displaying main plot
+
 
 
 #======================================================================
