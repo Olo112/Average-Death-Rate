@@ -1,12 +1,3 @@
-
-
-'''
-WHAT IM DOING:
-
-
-
-'''
-
 #======================================================================
 #   IMPORTS:
 #======================================================================
@@ -160,26 +151,8 @@ if (__name__ == '__main__'):
     plt.plot(main_data, label='deaths in 2015', marker='o', linewidth=2.0)
     plt.xlabel("Years (from 2015)")
 
-    plt.grid()
-    plt.show()
-
-
-
-    '''     # TESTS MADE BEFORE LAST UPDATES
-    
-    ls_main_data = []
-
-    ls_data_00 = find_data(ls_00)
-    ls_data_01 = find_data(ls_01)
-
-    ls_main_data.append(ls_data_00[0])
-    ls_main_data.append(ls_data_01[0])
-    
-    plt.plot(ls_years, ls_main_data, color='blue', marker='o')
-    plt.grid()
-    plt.show()              # displays the plot
-    '''
-
+    plt.grid()      # display grid in plot
+    plt.show()      # displaying main plot
 
 
 #======================================================================
