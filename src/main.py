@@ -11,14 +11,7 @@ import csv                                  # for opening csv files
 #   GLOBALS:
 #======================================================================
 
-# ls_years = [1, 2, 3, 4]
 
-'''
-ls_00 = [4442, 4545, 4666, 3992, 4333, 4567, 4862, 4532, 4091]          # example lists
-ls_01 = [4444, 4555, 4866, 4992, 4339, 4537, 4962, 3532, 4092]
-ls_02 = [4440, 4595, 4066, 4692, 4634, 4687, 4762, 4932, 3091]
-ls_03 = [3077, 3471, 4244, 4956, 3834, 3844, 3844, 4611, 3285]
-'''
 
 s_scv_file = 'liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv'        # example file name
 
@@ -135,16 +128,6 @@ def collect_data(csv_file_name, years_num):
 
 if (__name__ == '__main__'):
 
-    read_file = read_data(s_scv_file, 1)
-    if (_DBG9_): print(read_file)
-
-
-    print('----------------------------------------------')
-    if (_DBG9_): print(collect_data(s_scv_file, 8))
-
-    main_data = collect_data(s_scv_file, 8)
-
-    plt.plot(main_data, label='deaths in 2015', marker='o', linewidth=2.0)
     plt.xlabel("Years (from 2015)")
 
     plt.grid()      # display grid in plot
