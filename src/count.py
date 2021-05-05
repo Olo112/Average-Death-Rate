@@ -21,7 +21,7 @@ _DBG9_ = False						# Standard debug
 #======================================================================
 
 class Operation:
-    # counting class
+    # operation class
 
     def __init__(self):
         # initializing class
@@ -30,7 +30,7 @@ class Operation:
 
 
 
-    def delete_row_col(self, csv_file, row_num, col_num):
+    def fix_csv(self, csv_file, row_num, col_num):
         '''
             in:     csv_file, row number and column number,
 
@@ -39,35 +39,32 @@ class Operation:
             out:    csv_file without the deleted row and column;
         '''
 
+        self.csv_file = csv_file
+        self.row_num = row_num
+        self.col_num = col_num
 
-        return
 
+        csv_file_data = pd.read_csv(csv_file)
 
+        fixed_csv = csv_file_data.drop(index=row_num, columns=col_num)        # deleting first row and first column
 
-    def read(self, csv_file):
-        '''
-            in:     csv_file;
-
-            reads the csv file and returns the main values
-
-            out:    None
-
-        '''
-
-        pd.read_csv(csv_file)
-
-        return
+        return fixed_csv
 
 
 
-    def get_data(self, data):
+
+
+
+    def sum_data_columns(self, data):
         '''
             in:     data,
 
-            reading the whole file of data,
+            reading the whole file of data, and get access to data,
 
             out:    read_data;
         '''
+
+        self.data = data
 
 
 
@@ -82,6 +79,3 @@ class Operation:
 if (__name__ == '__main__'):
     Obj = Operation()
 
-    ls = Obj.get_data([1, 2, 3])
-
-    print(ls)
