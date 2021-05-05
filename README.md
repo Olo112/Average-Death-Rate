@@ -25,7 +25,7 @@ death statistics from 1 september 2015
 
 <br>
 
-## Tests:
+## Demo Tests:
 
 Just to show how does matplotlib work:
 <p float="left">
@@ -40,7 +40,6 @@ divided into subplots, which in this case, there will be two of them.
 
 <br>
 
-## Project screenshots:
 The idea of the first plot. This data is from the actual source (not the one from
 my code).
 <p>
