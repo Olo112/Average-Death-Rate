@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="updating readme">
+      <change afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/proj_fig_00.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo-screenshots/proj_fig_00.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/proj_fig_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo-screenshots/proj_fig_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_00.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo-screenshots/screenshot_00.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo-screenshots/screenshot_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/count.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -105,9 +119,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.count" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Batch.run_main" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +442,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620226478293</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="initial commit">
+      <created>1620246568818</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1620246568818</updated>
+    </task>
+    <task id="LOCAL-00046" summary="updating readme">
+      <created>1620246815245</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1620246815245</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -482,7 +510,6 @@
     <MESSAGE value="add test img" />
     <MESSAGE value="converting data from str to int" />
     <MESSAGE value="adding actual project plot screenshot" />
-    <MESSAGE value="updating readme" />
     <MESSAGE value="adding value of avr" />
     <MESSAGE value="adding read all rows function and debugging" />
     <MESSAGE value="appending all values to one global list" />
@@ -504,6 +531,7 @@
     <MESSAGE value="adda run main" />
     <MESSAGE value="adding main class and batch file to run application" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="updating readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating readme" />
   </component>
 </project>
