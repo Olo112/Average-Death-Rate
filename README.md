@@ -29,8 +29,8 @@ death statistics from 1 september 2015
 
 Just to show how does matplotlib work:
 <p float="left">
-    <img src="screenshots/screenshot_00.png" width="300" height="225">
-    <img src="screenshots/screenshot_01.png" width="300" height="225">
+    <img src="demo-screenshots/screenshot_00.png" width="300" height="225">
+    <img src="demo-screenshots/screenshot_01.png" width="300" height="225">
 </p>
 
 In the real project, I will have two plots on one displayed interface. Those are
@@ -43,6 +43,6 @@ divided into subplots, which in this case, there will be two of them.
 The idea of the first plot. This data is from the actual source (not the one from
 my code).
 <p>
-    <img src="screenshots/proj_fig_00.png" width="300" height="225">
-    <img src="screenshots/proj_fig_01.png" width="300" height="225">
+    <img src="demo-screenshots/proj_fig_00.png" width="300" height="225">
+    <img src="demo-screenshots/proj_fig_01.png" width="300" height="225">
 </p>
