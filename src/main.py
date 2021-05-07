@@ -4,7 +4,7 @@
 from typing import Type
 
 from matplotlib import pyplot as plt        # for plots
-import csv                                  # for opening csv files
+import csv                                  # for operations on csv file(s)
 import count as c
 
 
@@ -12,7 +12,6 @@ import count as c
 #======================================================================
 #   GLOBALS:
 #======================================================================
-from src.count import Operation
 
 s_scv_file = 'liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv'        # file name
 
@@ -46,7 +45,7 @@ def to_int(ls):
 
 if (__name__ == '__main__'):
 
-    counter = c.Operation       # creating main object
+    counter = c.Operations       # creating main object
 
 
 
