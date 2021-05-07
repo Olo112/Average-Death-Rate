@@ -26,6 +26,7 @@ class Operations:
     def __init__(self):
         # initializing class
 
+
         return
 
 
@@ -39,22 +40,17 @@ class Operations:
             out:    csv_file without the deleted row and column;
         '''
 
+
         self.csv_file = csv_file
-        #self.row_num = row_num
         self.col_num = col_num
 
-
         csv_file_data = pd.read_csv(csv_file)
-        csv_file_data.next()
-        column = csv_file_data.columns[col_num]
+        del_column = csv_file_data.columns[col_num]     # get deleted row / column
 
+        fixed_csv = csv_file_data.drop(columns=del_column, axis=1)        # deleting first row and first column
 
-        fixed_csv = csv_file_data.drop([column], axis=1)        # deleting first row and first column
 
         return fixed_csv
-
-
-
 
 
 
@@ -67,8 +63,8 @@ class Operations:
             out:    read_data;
         '''
 
-        self.data = data
 
+        self.data = data
 
 
         return "data =", data
