@@ -1,6 +1,6 @@
 # Average-Death-Rate
 
-**Average death rate count in Poland**
+**Displaying plot of death rates from past years in Poland**
 
 <br>
 
