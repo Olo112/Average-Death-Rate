@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/run_tests.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/count.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="update README.md">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,41 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00001" summary="adding debuggers">
-      <created>1615549023001</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1615549023001</updated>
-    </task>
-    <task id="LOCAL-00002" summary="adding XML file">
-      <created>1615550985408</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1615550985408</updated>
-    </task>
-    <task id="LOCAL-00003" summary="displaying function example">
-      <created>1615580320730</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1615580320730</updated>
-    </task>
-    <task id="LOCAL-00004" summary="adding example screen shot">
-      <created>1615580707391</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1615580707391</updated>
-    </task>
-    <task id="LOCAL-00005" summary="adding images">
-      <created>1615596761269</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1615596761269</updated>
     </task>
     <task id="LOCAL-00006" summary="cleaning up the main python file">
       <created>1615811919923</created>
@@ -508,7 +468,42 @@
       <option name="project" value="LOCAL" />
       <updated>1620301469045</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="initial commit">
+      <created>1620380229299</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1620380229300</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add main data source and run tests program">
+      <created>1620380264072</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1620380264073</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update count and add Operations class">
+      <created>1620380329219</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1620380329219</updated>
+    </task>
+    <task id="LOCAL-00053" summary="setup and update test and main">
+      <created>1620380358507</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1620380358507</updated>
+    </task>
+    <task id="LOCAL-00054" summary="update README.md">
+      <created>1620380483174</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1620380483174</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -559,10 +554,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="converting data from str to int" />
-    <MESSAGE value="adding actual project plot screenshot" />
-    <MESSAGE value="adding value of avr" />
-    <MESSAGE value="adding read all rows function and debugging" />
     <MESSAGE value="appending all values to one global list" />
     <MESSAGE value="adding all the values to main list for data visualisation" />
     <MESSAGE value="adding the output graph to src/screenshots" />
@@ -584,6 +575,10 @@
     <MESSAGE value="updating readme" />
     <MESSAGE value="update readme" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add main data source and run tests program" />
+    <MESSAGE value="update count and add Operations class" />
+    <MESSAGE value="setup and update test and main" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
 </project>
