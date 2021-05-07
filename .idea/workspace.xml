@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="update README.md">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="deleting the last argument in fix_csv function and cleaning this class function">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/count.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +32,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/demo/liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/demo/main.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/count.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tests.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1peg9kJTOhQqBbZ4jTjPq45YlTG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -159,27 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00006" summary="cleaning up the main python file">
-      <created>1615811919923</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1615811919923</updated>
-    </task>
-    <task id="LOCAL-00007" summary="adding the source .csv file">
-      <created>1615811961739</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1615811961739</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add a read_data to main project file">
-      <created>1615935170643</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1615935170643</updated>
     </task>
     <task id="LOCAL-00009" summary="reading the first data from source">
       <created>1615937066632</created>
@@ -503,7 +491,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620380483174</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="add license">
+      <created>1620380576920</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1620380576920</updated>
+    </task>
+    <task id="LOCAL-00056" summary=".">
+      <created>1620380797370</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1620380797370</updated>
+    </task>
+    <task id="LOCAL-00057" summary="deleting the last argument in fix_csv function and cleaning this class function">
+      <created>1620386651049</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1620386651049</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -554,8 +563,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="appending all values to one global list" />
-    <MESSAGE value="adding all the values to main list for data visualisation" />
     <MESSAGE value="adding the output graph to src/screenshots" />
     <MESSAGE value="updating the README.md" />
     <MESSAGE value="deleting unnecessary code comments" />
@@ -564,7 +571,6 @@
     <MESSAGE value="workspace config" />
     <MESSAGE value="update source file" />
     <MESSAGE value="clean code..." />
-    <MESSAGE value="." />
     <MESSAGE value="add the main" />
     <MESSAGE value="updating the main (copy from demo)" />
     <MESSAGE value="add a batch file" />
@@ -579,6 +585,9 @@
     <MESSAGE value="update count and add Operations class" />
     <MESSAGE value="setup and update test and main" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="add license" />
+    <MESSAGE value="." />
+    <MESSAGE value="deleting the last argument in fix_csv function and cleaning this class function" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleting the last argument in fix_csv function and cleaning this class function" />
   </component>
 </project>
