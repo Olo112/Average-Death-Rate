@@ -20,7 +20,7 @@ _DBG9_ = False						# Standard debug
 #   CLASSES:
 #======================================================================
 
-class Operation:
+class Operations:
     # operation class
 
     def __init__(self):
@@ -30,23 +30,26 @@ class Operation:
 
 
 
-    def fix_csv(self, csv_file, row_num, col_num):
+    def fix_csv(self, csv_file, col_num):
         '''
             in:     csv_file, row number and column number,
 
-            deleting row in row_num and column in col_num,
+            deleting row in row_num and column in col_num (index of rows and columns start with 0)
 
             out:    csv_file without the deleted row and column;
         '''
 
         self.csv_file = csv_file
-        self.row_num = row_num
+        #self.row_num = row_num
         self.col_num = col_num
 
 
         csv_file_data = pd.read_csv(csv_file)
+        csv_file_data.next()
+        column = csv_file_data.columns[col_num]
 
-        fixed_csv = csv_file_data.drop(index=row_num, columns=col_num)        # deleting first row and first column
+
+        fixed_csv = csv_file_data.drop([column], axis=1)        # deleting first row and first column
 
         return fixed_csv
 
@@ -77,5 +80,8 @@ class Operation:
 #======================================================================
 
 if (__name__ == '__main__'):
-    Obj = Operation()
+    Obj = Operations()
 
+    main = Obj.sum_data_columns(12)
+
+    print(main)
