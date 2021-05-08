@@ -30,7 +30,7 @@ s_scv_file = 'liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv'        # example
 
 _DBG0_ = True						# Errors
 _DBG1_ = True						# Warnings
-_DBG9_ = True						# Standard debug
+_DBG9_ = False						# Standard debug
 
 
 
@@ -75,7 +75,7 @@ def read_data(csv_file_name, row_num):
 
     file = open(csv_file_name, 'r')
     reader = csv.reader(file)
-    #if (_DBG9_): print(reader)
+    if (_DBG9_): print(reader)
 
     for line in reader:     # going through whole read .csv file line
         if (line[row_num] != ''):
@@ -94,7 +94,7 @@ def read_data(csv_file_name, row_num):
     el_sum = sum(ls_data)
     avr = (el_sum)/l
 
-    if (_DBG9_): print('avr =',avr)        # debugger
+    if (_DBG9_): print('avr =',avr)
 
     return avr
 
@@ -106,7 +106,7 @@ def collect_data(csv_file_name, years_num):
         file_name:  source of data;
 
     output:
-        ---
+        ls_global_data
     '''
 
     global ls_global_data
@@ -119,7 +119,7 @@ def collect_data(csv_file_name, years_num):
 
 
         if (_DBG9_): print('read_row =',read_row)
-        # if (_DBG9_): print('\n\nls_global_data =',ls_global_data)
+        if (_DBG9_): print('\n\nls_global_data =',ls_global_data)
 
     del ls_global_data[0]
 

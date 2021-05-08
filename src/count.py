@@ -12,7 +12,7 @@ import pandas as pd         # for operating on csv file
 
 _DBG0_ = True						# Errors
 _DBG1_ = True						# Warnings
-_DBG9_ = False						# Standard debug
+_DBG9_ = True						# Standard debug
 
 
 
@@ -49,25 +49,75 @@ class Operations:
 
         fixed_csv = csv_file_data.drop(columns=del_column, axis=1)        # deleting first row and first column
 
-
         return fixed_csv
 
 
 
-    def sum_data_columns(self, data):
+    def to_int(self, ls_data):
         '''
-            in:     data,
+            in:     list of data,
+
+            convert every element of list to int,
+
+            out:    converted list of int elements;
+        '''
+
+
+        self.ls_data = ls_data
+
+        ls_data = [int(element) for element in ls_data]     # converting each element in ls_data to type int
+
+        return ls_data
+
+
+
+    def zero_to_blank(self, ls_data):
+        '''
+            in:     list of data,
+
+
+            out:    modified ls_data
+        '''
+
+        self.ls_data = ls_data
+
+        for element in ls_data:
+            if (element == '') or (element == ' '):
+                element = '0'
+
+            else:
+                pass
+
+
+        return
+
+
+
+    def sum_data_columns(self, data_file):
+        '''
+            in:     data_file,
 
             reading the whole file of data, and get access to data,
 
             out:    read_data;
         '''
 
+        # go through the whole data file
 
-        self.data = data
+
+            # check if every element is a digit
 
 
-        return "data =", data
+            # sum all the data in that file
+
+
+
+
+
+        self.data_file = data_file
+
+
+        return "data =", data_file
 
 
 
