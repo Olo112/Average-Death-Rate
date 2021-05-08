@@ -23,7 +23,7 @@ s_scv_file = 'liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv'        # file na
 
 _DBG0_ = True						# Errors
 _DBG1_ = True						# Warnings
-_DBG9_ = False						# Standard debug
+_DBG9_ = True						# Standard debug
 
 
 
@@ -31,11 +31,50 @@ _DBG9_ = False						# Standard debug
 #   FUNCTIONS:
 #======================================================================
 
-def to_int(ls):
-    ls = [int(element) for element in ls]
-    if (_DBG9_): print(ls)
+def read_file(csv_file_name):
 
-    return ls
+    '''
+        in:     csv_csv_file_name:  name of a csv file with data,
+
+        change blank places to '0'
+
+        out:    ls_data:    list of all the data that
+    '''
+
+    file = open(csv_file_name, 'r')
+
+    read_data = csv.reader(file)
+
+    for row in read_data:
+        del row[0]
+        for i in row:
+            if (i == ''):
+                #i = '0'
+                row.insert(row.index(i), '0')
+                if (_DBG9_): print('i =', i)
+
+                pass
+
+            else:
+                pass
+
+        if (_DBG9_): print(row)
+
+    return
+
+
+
+def main():
+    '''
+        in:
+
+
+
+        out:
+    '''
+    ls_data = []
+
+    return
 
 
 
@@ -47,6 +86,7 @@ if (__name__ == '__main__'):
 
     counter = c.Operations       # creating main object
 
+    read_file(s_scv_file)
 
 
     plt.xlabel("Years (from 2015)")     # main labels
