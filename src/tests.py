@@ -32,7 +32,6 @@ if (__name__ == '__main__'):
 
     for element in reader:
         del element[0]
-        #print(element)
 
         # filling blank with 0 digit:
         test_operations.zero_to_blank(element)
