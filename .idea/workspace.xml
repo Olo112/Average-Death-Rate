@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="update main tests">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="adding functions to main" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,13 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00017" summary="appending all values to one global list">
-      <created>1617021902959</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1617021902959</updated>
     </task>
     <task id="LOCAL-00018" summary="adding all the values to main list for data visualisation">
       <created>1617024327183</created>
@@ -512,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620475205270</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="adding functions to main">
+      <created>1620475710238</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1620475710238</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -563,7 +560,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comment change" />
     <MESSAGE value="adding title to label on x axis of graph" />
     <MESSAGE value="workspace config" />
     <MESSAGE value="update source file" />
@@ -588,6 +584,7 @@
     <MESSAGE value="update main program" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="update main tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="update main tests" />
+    <MESSAGE value="adding functions to main" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding functions to main" />
   </component>
 </project>
