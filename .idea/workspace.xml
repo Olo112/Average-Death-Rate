@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="deleting unnecessary main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,27 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00026" summary="initial commit">
-      <created>1619767877599</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1619767877599</updated>
-    </task>
-    <task id="LOCAL-00027" summary="update source file">
-      <created>1619768277472</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1619768277472</updated>
-    </task>
-    <task id="LOCAL-00028" summary="clean code...">
-      <created>1619768687498</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1619768687498</updated>
     </task>
     <task id="LOCAL-00029" summary="initial commit">
       <created>1619778132422</created>
@@ -519,7 +499,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620635372534</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="initial commit">
+      <created>1620654673090</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1620654673090</updated>
+    </task>
+    <task id="LOCAL-00076" summary="adding debuggers">
+      <created>1620655036824</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1620655036824</updated>
+    </task>
+    <task id="LOCAL-00077" summary="deleting unnecessary main">
+      <created>1620656477873</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1620656477873</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -570,8 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="clean code..." />
-    <MESSAGE value="add the main" />
     <MESSAGE value="updating the main (copy from demo)" />
     <MESSAGE value="add a batch file" />
     <MESSAGE value="deleting a batch file" />
@@ -595,6 +594,8 @@
     <MESSAGE value="update count class and tests" />
     <MESSAGE value="updating tests" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="adding debuggers" />
+    <MESSAGE value="deleting unnecessary main" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleting unnecessary main" />
   </component>
 </project>

@@ -14,6 +14,7 @@ import count as c
 
 _DBG0_ = True						# Errors
 _DBG1_ = True						# Warnings
+_DBG8_ = True                       # For other bugs
 _DBG9_ = True						# Standard debug
 
 
@@ -31,28 +32,33 @@ if (__name__ == '__main__'):
 
     print("reader: \n")
 
-    if (_DBG9_):
+    '''     WORKS
+    if (_DBG8_):
         for i in reader:
             print(i)
+    '''
 
 
-    test_operations = c.Operations()     # creating main object
+    test_operations = c.Operations()     # creating main test object
 
 
     summed = test_operations.sum_data_columns(12)
     print(summed, '\n\n')
 
     fixed_data = test_operations.fix_csv(csv_file='liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv', col_num=0)   # deleting first column and row
-    #print()
+
+    if (_DBG8_):
+        for i in fixed_data:
+            print(i)
 
 
-        # filling blank with 0 digit:
-        #test_operations.zero_to_blank(element)
+    # filling blank with 0 digit:
+    filled_data = test_operations.zero_to_blank(fixed_data)
+    for i in filled_data:
+        print(i)
 
-        # converting to int:
-        #test_operations.to_int(element)
-
-        #print(element)
+    # converting to int:
+    # test_operations.to_int(element)
 
 
 
