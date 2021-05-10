@@ -15,6 +15,10 @@ import count as c
 if (__name__ == '__main__'):
     print("tests.. \n")
 
+    # opening and reading csv
+    file = open('liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv', 'r')
+    reader = csv.reader(file)
+
     test_operations = c.Operations()     # creating main object
 
 
@@ -22,24 +26,18 @@ if (__name__ == '__main__'):
     print(summed, '\n\n')
 
     fixed_csv = test_operations.fix_csv(csv_file='liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv', col_num=0)   # deleting first column and row
-    fixed_csv = fixed_csv.to_csv()
-    print(fixed_csv, '\n\n')
 
+    for i in fixed_csv:
+        print(i)
 
-    # opening and reading csv
-    file = open('liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv', 'r')
-    reader = csv.reader(file)
-
-    for element in reader:
-        del element[0]
 
         # filling blank with 0 digit:
-        test_operations.zero_to_blank(element)
+        #test_operations.zero_to_blank(element)
 
         # converting to int:
-        test_operations.to_int(element)
+        #test_operations.to_int(element)
 
-        print(element)
+        #print(element)
 
 
 

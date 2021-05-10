@@ -1,6 +1,7 @@
 #======================================================================
 #   IMPORTS:
 #======================================================================
+import csv
 
 import pandas as pd         # for operating on csv file
 
@@ -37,19 +38,20 @@ class Operations:
 
             deleting row in row_num and column in col_num (index of rows and columns start with 0)
 
-            out:    csv_file without the deleted row and column;
+            out:    csv_file without the deleted column;
         '''
-
 
         self.csv_file = csv_file
         self.col_num = col_num
 
-        csv_file_data = pd.read_csv(csv_file)
-        del_column = csv_file_data.columns[col_num]     # get deleted row / column
+        file = open(csv_file)
+        reader = csv.reader(file)
 
-        fixed_csv = csv_file_data.drop(columns=del_column, axis=1)        # deleting first row and first column
+        for element in reader:
+            del element[col_num]
 
-        return fixed_csv
+
+        return reader
 
 
 
