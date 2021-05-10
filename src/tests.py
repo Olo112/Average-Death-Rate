@@ -27,7 +27,9 @@ if (__name__ == '__main__'):
 
     fixed_csv = test_operations.fix_csv(csv_file='liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv', col_num=0)   # deleting first column and row
 
-    for i in fixed_csv:
+    data = reader
+
+    for i in data:
         print(i)
 
 
