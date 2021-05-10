@@ -38,20 +38,25 @@ class Operations:
 
             deleting row in row_num and column in col_num (index of rows and columns start with 0)
 
-            out:    csv_file without the deleted column;
+            out:    ls_ls_csv_data:     list of csv data;
         '''
+
 
         self.csv_file = csv_file
         self.col_num = col_num
+
+        ls_csv_data = []        # main list
+
 
         file = open(csv_file)
         reader = csv.reader(file)
 
         for element in reader:
             del element[col_num]
+            ls_csv_data.append(element)
 
 
-        return reader
+        return ls_csv_data
 
 
 
@@ -77,21 +82,28 @@ class Operations:
         '''
             in:     list of data,
 
+            fill empty spaces (elements which have '') with '0',
 
-            out:    modified ls_data
+            out:    ls_fixed_blank
         '''
+
 
         self.ls_data = ls_data
 
+        ls_fixed_blank = []
+
+
+
         for element in ls_data:
-            if (element == '') or (element == ' '):
-                element = '0'
+
+            if (element != ''):
+                ls_fixed_blank.append(element)
 
             else:
-                pass
+                ls_fixed_blank.append('0')
 
 
-        return
+        return ls_fixed_blank
 
 
 
@@ -124,12 +136,5 @@ class Operations:
 
 
 #======================================================================
-#   MAIN:       # for tests
+#   END OF FILE
 #======================================================================
-
-if (__name__ == '__main__'):
-    Obj = Operations()
-
-    main = Obj.sum_data_columns(12)
-
-    print(main)
