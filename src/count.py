@@ -34,9 +34,11 @@ class Operations:
 
     def fix_csv(self, csv_file, col_num):
         '''
-            in:     csv_file, row number and column number,
+            in:
+            csv_file:       name of csv file,
+            col_num:        number of deleted column,
 
-            deleting row in row_num and column in col_num (index of rows and columns start with 0)
+            deleting column in col_num (index of rows and columns start with 0),
 
             out:    ls_ls_csv_data:     list of csv data;
         '''
@@ -62,19 +64,19 @@ class Operations:
 
     def to_int(self, ls_data):
         '''
-            in:     list of data,
+            in:     ls_data:    list of data,
 
             convert every element of list to int,
 
-            out:    converted list of int elements;
+            out:    ls_conv_data:    converted list of int elements;
         '''
 
 
         self.ls_data = ls_data
 
-        ls_data = [int(element) for element in ls_data]     # converting each element in ls_data to type int
+        ls_conv_data = [int(element) for element in ls_data]     # converting each element in ls_data to type int
 
-        return ls_data
+        return ls_conv_data
 
 
 
@@ -97,10 +99,10 @@ class Operations:
         for element in ls_data:
 
             if (element != ''):
-                ls_fixed_blank.append(element)
+                pass
 
             else:
-                ls_fixed_blank.append('0')
+                element = '0'
 
 
         return ls_fixed_blank
@@ -116,6 +118,9 @@ class Operations:
             out:    read_data;
         '''
 
+
+        self.data_file = data_file
+
         # go through the whole data file
 
 
@@ -128,7 +133,6 @@ class Operations:
 
 
 
-        self.data_file = data_file
 
 
         return "data =", data_file
