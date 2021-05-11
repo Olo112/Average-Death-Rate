@@ -54,10 +54,25 @@ if (__name__ == '__main__'):
 
     # filling blank with 0 digit:
     filled_data = test_operations.zero_to_blank(fixed_data)
+
+    '''
     for i in filled_data:
+        test_operations.zero_to_blank(i)
         print(i)
+    '''
 
     # converting to int:
+
+    ls_int_data = []
+
+    for row in filled_data:
+        ls_int_data_element = test_operations.to_int(row)
+        ls_int_data.append(ls_int_data_element)
+
+
+    for i in ls_int_data:
+        print(i)
+
     # test_operations.to_int(element)
 
 
