@@ -116,7 +116,7 @@ class Operations:
         return ls_conv_data
 
 
-
+    # TODO: create a class that will count the average values by column
     def sum_data_columns(self, data_file):
         '''
             in:     data_file,

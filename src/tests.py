@@ -82,7 +82,8 @@ if (__name__ == '__main__'):
         # ls_int_data.append(row)
     '''
 
-    # test_operations.to_int(element)
+
+    # summing by rows:
 
 
 
