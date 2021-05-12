@@ -95,14 +95,19 @@ class Operations:
         ls_fixed_blank = []
 
 
+        for row in ls_data:
+            ls_row = []
 
-        for element in ls_data:
+            for value in row:
+                if (value != ''):
+                    ls_row.append(value)
 
-            if (element != ''):
-                pass
+                else:
+                    ls_row.append(0)
 
-            else:
-                element = '0'
+            ls_fixed_blank.append(ls_row)
+
+
 
 
         return ls_fixed_blank
