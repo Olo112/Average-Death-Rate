@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/count.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/count.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00041" summary="taking away the unnecessary comments">
-      <created>1620114734903</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1620114734903</updated>
     </task>
     <task id="LOCAL-00042" summary="adda run main">
       <created>1620225951293</created>
@@ -519,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620838268142</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary=".">
+      <created>1620838328206</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1620838328206</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -576,7 +578,6 @@
     <MESSAGE value="setup and update test and main" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="add license" />
-    <MESSAGE value="." />
     <MESSAGE value="deleting the last argument in fix_csv function and cleaning this class function" />
     <MESSAGE value="updating classes test count" />
     <MESSAGE value="update main program" />
@@ -595,6 +596,7 @@
     <MESSAGE value="adding 0's to blank places in lists" />
     <MESSAGE value="add a blank filling function" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
