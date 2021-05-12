@@ -30,9 +30,8 @@ if (__name__ == '__main__'):
     file = open('liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv', 'r')
     reader = csv.reader(file)
 
-    print("reader: \n")
-
     '''     WORKS
+    print("reader: \n")
     if (_DBG8_):
         for i in reader:
             print(i)
@@ -56,18 +55,23 @@ if (__name__ == '__main__'):
     # filling blank with 0 digit:
     filled_data = test_operations.zero_to_blank(fixed_data)
 
-    '''
-    for i in filled_data:
-        test_operations.zero_to_blank(i)
-        print(i)
-    '''
-
+    ''' WORKS
     for i in filled_data:
         print(i)
+    '''
 
     # converting to float:
+    ls_filled_float_data = []
 
-    ls_int_data = []
+    for row in filled_data:
+        row = [float(val) for val in row]
+        ls_filled_float_data.append(row)
+
+
+    del ls_filled_float_data[0]
+
+    for row in ls_filled_float_data:
+        print(row)
 
 
     '''
