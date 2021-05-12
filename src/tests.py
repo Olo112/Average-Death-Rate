@@ -46,7 +46,7 @@ if (__name__ == '__main__'):
 
     fixed_data = test_operations.fix_csv(csv_file='liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv', col_num=0)   # deleting first column and row
 
-    '''
+    ''' WORKS
     if (_DBG8_):
         for i in fixed_data:
             print(i) 

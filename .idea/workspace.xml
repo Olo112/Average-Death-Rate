@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="finish function that converts to float">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
-    </list>
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="make a small todo for creating a summing function in count.Operations() class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00045" summary="initial commit">
-      <created>1620246568818</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1620246568818</updated>
     </task>
     <task id="LOCAL-00046" summary="updating readme">
       <created>1620246815245</created>
@@ -520,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620857731462</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="make a small todo for creating a summing function in count.Operations() class">
+      <created>1620858758841</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1620858758841</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -571,7 +568,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update count and add Operations class" />
     <MESSAGE value="setup and update test and main" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="add license" />
@@ -596,6 +592,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="test update: convert all values to type float" />
     <MESSAGE value="finish function that converts to float" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish function that converts to float" />
+    <MESSAGE value="make a small todo for creating a summing function in count.Operations() class" />
+    <option name="LAST_COMMIT_MESSAGE" value="make a small todo for creating a summing function in count.Operations() class" />
   </component>
 </project>
