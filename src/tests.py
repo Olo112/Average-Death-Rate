@@ -55,23 +55,27 @@ if (__name__ == '__main__'):
     # filling blank with 0 digit:
     filled_data = test_operations.zero_to_blank(fixed_data)
 
-    '''
+    ''' WORKS
     for i in filled_data:
         test_operations.zero_to_blank(i)
         print(i)
-    '''
+    
 
-    # converting to int:
+    for i in filled_data:
+        print(i)
+    '''
+    # converting to float:
 
     ls_int_data = []
 
-    for row in filled_data:
-        ls_int_data_element = test_operations.to_int(row)
-        ls_int_data.append(ls_int_data_element)
 
+    '''
+    for row in fixed_data:
+        row = [float(value) for value in row]
+        print(row)
 
-    for i in ls_int_data:
-        print(i)
+        # ls_int_data.append(row)
+    '''
 
     # test_operations.to_int(element)
 
