@@ -47,23 +47,24 @@ if (__name__ == '__main__'):
 
     fixed_data = test_operations.fix_csv(csv_file='liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv', col_num=0)   # deleting first column and row
 
+    '''
     if (_DBG8_):
         for i in fixed_data:
-            print(i)
-
+            print(i) 
+    '''
 
     # filling blank with 0 digit:
     filled_data = test_operations.zero_to_blank(fixed_data)
 
-    ''' WORKS
+    '''
     for i in filled_data:
         test_operations.zero_to_blank(i)
         print(i)
-    
+    '''
 
     for i in filled_data:
         print(i)
-    '''
+
     # converting to float:
 
     ls_int_data = []
