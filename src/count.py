@@ -62,24 +62,6 @@ class Operations:
 
 
 
-    def to_int(self, ls_data):
-        '''
-            in:     ls_data:    list of data,
-
-            convert every element of list to int,
-
-            out:    ls_conv_data:    converted list of int elements;
-        '''
-
-
-        self.ls_data = ls_data
-
-        ls_conv_data = [int(element) for element in ls_data]     # converting each element in ls_data to type int
-
-        return ls_conv_data
-
-
-
     def zero_to_blank(self, ls_data):
         '''
             in:     list of data,
@@ -96,10 +78,10 @@ class Operations:
 
 
         for row in ls_data:
-            ls_row = []
+            ls_row = []         # main point list
 
-            for value in row:
-                if (value != ''):
+            for value in row:           # looping through each value in row
+                if (value != ''):       # checking if value is not a blank string
                     ls_row.append(value)
 
                 else:
@@ -108,9 +90,30 @@ class Operations:
             ls_fixed_blank.append(ls_row)
 
 
-
-
         return ls_fixed_blank
+
+
+
+    def to_float(self, ls_data):
+        '''
+            in:     ls_data:    list of data,
+
+            convert every element of list to int,
+
+            out:    ls_conv_data:    converted list of int elements;
+        '''
+
+
+        self.ls_data = ls_data
+
+        ls_conv_data = []
+
+        for row in ls_data:
+            row = [float(value) for value in row]
+            ls_conv_data.append(row)
+
+
+        return ls_conv_data
 
 
 
