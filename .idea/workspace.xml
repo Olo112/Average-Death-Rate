@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_05_2021_09_21_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_05_2021_09_21__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="deleted shelved patch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/count.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/count.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
@@ -179,27 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00035" summary="initial commit">
-      <created>1620112968626</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1620112968626</updated>
-    </task>
-    <task id="LOCAL-00036" summary="updating the main (copy from demo)">
-      <created>1620113195175</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1620113195175</updated>
-    </task>
-    <task id="LOCAL-00037" summary="add a batch file">
-      <created>1620113442347</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1620113442347</updated>
     </task>
     <task id="LOCAL-00038" summary="deleting a batch file">
       <created>1620113455152</created>
@@ -523,7 +500,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620836391936</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="initial commit">
+      <created>1620838070305</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1620838070305</updated>
+    </task>
+    <task id="LOCAL-00085" summary="deleted uncommited changes">
+      <created>1620838100861</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1620838100861</updated>
+    </task>
+    <task id="LOCAL-00086" summary="deleted shelved patch">
+      <created>1620838122816</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1620838122816</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -574,8 +572,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="taking away the unnecessary comments" />
-    <MESSAGE value="adda run main" />
     <MESSAGE value="adding main class and batch file to run application" />
     <MESSAGE value="updating readme" />
     <MESSAGE value="update readme" />
@@ -599,6 +595,8 @@
     <MESSAGE value="cleaned count.py" />
     <MESSAGE value="updated tests" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="deleted uncommited changes" />
+    <MESSAGE value="deleted shelved patch" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted shelved patch" />
   </component>
 </project>
