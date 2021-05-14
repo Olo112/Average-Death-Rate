@@ -68,7 +68,7 @@ if (__name__ == '__main__'):
         ls_filled_float_data.append(row)
 
 
-    del ls_filled_float_data[0]
+    del ls_filled_float_data[0]     # delete years list
 
     for row in ls_filled_float_data:
         print(row)

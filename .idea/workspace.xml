@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="make a small todo for creating a summing function in count.Operations() class" />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00046" summary="updating readme">
-      <created>1620246815245</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1620246815245</updated>
     </task>
     <task id="LOCAL-00047" summary="update readme">
       <created>1620301305621</created>
@@ -517,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620858758841</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary=".">
+      <created>1620858875576</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1620858875576</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -588,11 +591,11 @@
     <MESSAGE value="deleted shelved patch" />
     <MESSAGE value="adding 0's to blank places in lists" />
     <MESSAGE value="add a blank filling function" />
-    <MESSAGE value="." />
     <MESSAGE value="initial commit" />
     <MESSAGE value="test update: convert all values to type float" />
     <MESSAGE value="finish function that converts to float" />
     <MESSAGE value="make a small todo for creating a summing function in count.Operations() class" />
-    <option name="LAST_COMMIT_MESSAGE" value="make a small todo for creating a summing function in count.Operations() class" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
