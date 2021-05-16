@@ -13,6 +13,7 @@ import pandas as pd         # for operating on csv file
 
 _DBG0_ = True						# Errors
 _DBG1_ = True						# Warnings
+_DBG8_ = False                      # Other issues
 _DBG9_ = True						# Standard debug
 
 
@@ -116,6 +117,7 @@ class Operations:
         return ls_conv_data
 
 
+
     # TODO: create a class that will count the average values by column
     def sum_data_columns(self, data_file):
         '''
@@ -129,7 +131,17 @@ class Operations:
 
         self.data_file = data_file
 
+        data_length = len(data_file)
+
+        ls_main_data = []
+
+
+
         # go through the whole data file
+        for i in range(data_length):
+            ls_to_sum = []
+            for row in data_file:
+                ls_to_sum.append(row[i])
 
 
             # check if every element is a digit
@@ -143,7 +155,7 @@ class Operations:
 
 
 
-        return "data =", data_file
+        return #"data =", data_file
 
 
 

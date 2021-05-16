@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="update main tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/count.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00050" summary="initial commit">
-      <created>1620380229299</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1620380229300</updated>
     </task>
     <task id="LOCAL-00051" summary="add main data source and run tests program">
       <created>1620380264072</created>
@@ -521,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621190627122</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="update main tests">
+      <created>1621191399052</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1621191399052</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -577,7 +576,6 @@
     <MESSAGE value="deleting the last argument in fix_csv function and cleaning this class function" />
     <MESSAGE value="updating classes test count" />
     <MESSAGE value="update main program" />
-    <MESSAGE value="update main tests" />
     <MESSAGE value="adding functions to main" />
     <MESSAGE value="update README" />
     <MESSAGE value="update count class and tests" />
@@ -597,6 +595,7 @@
     <MESSAGE value="." />
     <MESSAGE value="delete the first row of main data" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="update main tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="update main tests" />
   </component>
 </project>
