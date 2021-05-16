@@ -41,8 +41,8 @@ if (__name__ == '__main__'):
     test_operations = c.Operations()     # creating main test object
 
 
-    summed = test_operations.sum_data_columns(12)
-    print(summed, '\n\n')
+    #summed = test_operations.sum_data_columns(12)
+    #print(summed, '\n\n')
 
     fixed_data = test_operations.fix_csv(csv_file='liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv', col_num=0)   # deleting first column and row
 
@@ -81,6 +81,8 @@ if (__name__ == '__main__'):
 
         # ls_int_data.append(row)
     '''
+
+    test_operations.sum_data_columns(ls_filled_float_data)
 
 
     # summing by rows:
