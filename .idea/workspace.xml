@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,13 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00048" summary="update readme">
-      <created>1620301398796</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1620301398796</updated>
     </task>
     <task id="LOCAL-00049" summary="initial commit">
       <created>1620301469045</created>
@@ -519,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621023234275</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="initial commit">
+      <created>1621073726795</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1621073726795</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -589,12 +589,12 @@
     <MESSAGE value="deleted shelved patch" />
     <MESSAGE value="adding 0's to blank places in lists" />
     <MESSAGE value="add a blank filling function" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="test update: convert all values to type float" />
     <MESSAGE value="finish function that converts to float" />
     <MESSAGE value="make a small todo for creating a summing function in count.Operations() class" />
     <MESSAGE value="." />
     <MESSAGE value="delete the first row of main data" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete the first row of main data" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
