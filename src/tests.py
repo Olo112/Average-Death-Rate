@@ -3,6 +3,8 @@
 #======================================================================
 
 import pandas as pd         # for operating on csv file
+import numpy
+
 import csv
 import count as c
 
@@ -82,10 +84,12 @@ if (__name__ == '__main__'):
         # ls_int_data.append(row)
     '''
 
-    test_operations.sum_data_columns(ls_filled_float_data)
+    ls_ready_data = test_operations.sum_data_columns(ls_filled_float_data)
+
+    print('ls_ready_data =', ls_ready_data)
 
 
-    # summing numbers by row:
+
 
 
 
