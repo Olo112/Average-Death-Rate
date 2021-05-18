@@ -91,8 +91,9 @@ if (__name__ == '__main__'):
 
     # displaying the data on graph (creating plots):
 
-    # 1. naming labels of OX and OY:
-    plt.xlabel('years from 2015')      # OX label: years from 2015
+    # 1. naming labels of OX, OY and window title:
+    plt.title("ADR data chart from 2015")
+    plt.xlabel('Years')      # OX label: years from 2015
     plt.ylabel('ADR')                  # OY label: ADR (short: average death rate)
 
 
@@ -100,8 +101,9 @@ if (__name__ == '__main__'):
     plt.plot(ls_years, ls_main_data, label='ADR', marker='o')      # OX data, OY data,
 
     # 2. displaying (with grid):
-    #plt.grid(True)
-    #plt.show()
+    plt.grid(True)
+    plt.show()
+
 
 
 #======================================================================
