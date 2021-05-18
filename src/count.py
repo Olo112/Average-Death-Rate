@@ -4,7 +4,7 @@
 import csv
 
 import pandas as pd         # for operating on csv file
-
+import numpy as np
 
 
 #---------------------------------------------------------
@@ -131,19 +131,39 @@ class Operations:
 
         self.data_file = data_file
 
-        data_length = len(data_file)
+        # data_length = len(data_file)
 
         ls_main_data = []
 
 
+        # change main data_file to numpy array:
+        ls_data_arrays = np.array(data_file)
+
+        if (_DBG9_):
+            for ls in ls_data_arrays.T:
+                print(ls, '\n')
+
+
+
+
+        for ls_data in ls_data_arrays.T:
+            summed_data = sum(ls_data)
+            data_length = len(ls_data)
+
+            # counting average data
+            avr = (summed_data)/data_length
+
+            ls_main_data.append(avr)
+
 
         # go through the whole data file
+        '''
         for i in range(data_length):
             ls_to_sum = []
             for row in data_file:
                 ls_to_sum.append(row[i])
 
-
+        '''
             # check if every element is a digit
 
 
@@ -155,7 +175,7 @@ class Operations:
 
 
 
-        return #"data =", data_file
+        return ls_main_data
 
 
 
