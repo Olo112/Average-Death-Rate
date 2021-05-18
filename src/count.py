@@ -1,9 +1,8 @@
 #======================================================================
 #   IMPORTS:
 #======================================================================
-import csv
 
-import pandas as pd         # for operating on csv file
+import csv
 import numpy as np
 
 
@@ -109,6 +108,7 @@ class Operations:
 
         ls_conv_data = []
 
+
         for row in ls_data:
             row = [float(value) for value in row]
             ls_conv_data.append(row)
@@ -125,13 +125,11 @@ class Operations:
 
             reading the whole file of data, and get access to data,
 
-            out:    read_data;
+            out:    ls_main_data:   list of average data;
         '''
 
 
         self.data_file = data_file
-
-        # data_length = len(data_file)
 
         ls_main_data = []
 
@@ -145,34 +143,13 @@ class Operations:
 
 
 
-
         for ls_data in ls_data_arrays.T:
+            summed_data = sum(ls_data)      # sum all the data in that file
+            data_length = len(ls_data)      # getting the number of elements in that list
 
-            # sum all the data in that file
-            summed_data = sum(ls_data)
-
-
-            data_length = len(ls_data)
-
-            # counting average data
-            avr = (summed_data)/data_length
+            avr = (summed_data)/data_length     # counting average data
 
             ls_main_data.append(avr)
-
-
-        # go through the whole data file
-        '''
-        for i in range(data_length):
-            ls_to_sum = []
-            for row in data_file:
-                ls_to_sum.append(row[i])
-
-        '''
-            # check if every element is a digit
-
-
-            # sum all the data in that file
-
 
 
         return ls_main_data
