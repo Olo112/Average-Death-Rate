@@ -92,9 +92,9 @@ if (_DBG9_): print('ls =', ls, '\n\n')
 
 ### Screenshots and generating plots
 All of these screenshots are made from a data science library to visualize data, matplotlib. On matplotlib, I
-set label of OX axis to 'Years' and OY axis to ADR. Of course, the data for Years and ADR was generated within
-Operations() class inside of count.py file. Next, I needed to visualize the data on chart, so I used matplotlib
-plot function to show data on both, OX and OY axis and decorated them a bit by adding marker argument to plot
+set label of `OX` axis to 'Years' and `OY` axis to 'ADR'. Of course, the data for 'Years' and 'ADR' was generated within
+`Operations()` class inside of count.py file. Next, I needed to visualize the data on chart, so I used matplotlib
+plot function to show data on both, `OX` and `OY` axis and decorated them a bit by adding marker argument to plot
 function. I have also added a label to the graph:
 ```python
 plt.title("ADR data chart from 2015")
