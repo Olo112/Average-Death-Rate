@@ -85,7 +85,7 @@ if (__name__ == '__main__'):
     test_operations.sum_data_columns(ls_filled_float_data)
 
 
-    # summing by rows:
+    # summing numbers by row:
 
 
 
