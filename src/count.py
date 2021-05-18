@@ -14,7 +14,7 @@ import numpy as np
 _DBG0_ = True						# Errors
 _DBG1_ = True						# Warnings
 _DBG8_ = False                      # Other issues
-_DBG9_ = True						# Standard debug
+_DBG9_ = False						# Standard debug
 
 
 
@@ -147,7 +147,11 @@ class Operations:
 
 
         for ls_data in ls_data_arrays.T:
+
+            # sum all the data in that file
             summed_data = sum(ls_data)
+
+
             data_length = len(ls_data)
 
             # counting average data
@@ -168,10 +172,6 @@ class Operations:
 
 
             # sum all the data in that file
-
-
-
-
 
 
 
