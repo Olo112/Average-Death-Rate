@@ -43,17 +43,16 @@ if (__name__ == '__main__'):
             print(row)
 
 
-    counter = c.Operations       # creating main object
-
-    read_file(s_scv_file)
+    # filling blank with 0 digit
 
 
-    plt.xlabel("Years (from 2015)")     # main labels
-    plt.ylabel("ADR")
+    # converting all data vaules to float
 
-    plt.grid()      # display grid in plot
-    plt.show()      # displaying main plot
 
+    # deleting years list ls_filled_float_data[0]
+
+
+    # summing columns and
 
 
 #======================================================================
