@@ -93,8 +93,8 @@ if (__name__ == '__main__'):
 
     # 1. naming labels of OX, OY and window title:
     plt.title("ADR data chart from 2015")
-    plt.xlabel('Years')      # OX label: years from 2015
-    plt.ylabel('ADR')                  # OY label: ADR (short: average death rate)
+    plt.xlabel('Years')         # OX label: years from 2015
+    plt.ylabel('ADR')           # OY label: ADR (short: average death rate)
 
 
     # 2. adding plot:
