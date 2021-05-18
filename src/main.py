@@ -99,7 +99,8 @@ if (__name__ == '__main__'):
     # 2. adding plot:
     plt.plot(ls_years, ls_main_data, label='ADR', marker='o')      # OX data, OY data,
 
-    # 2. displaying (with grid):
+    # 2. displaying (with grid and legend):
+    plt.legend()
     plt.grid(True)
     plt.show()
 
