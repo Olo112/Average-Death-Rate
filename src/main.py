@@ -32,6 +32,16 @@ _DBG9_ = True						# Standard debug
 #======================================================================
 
 if (__name__ == '__main__'):
+    count_data = c.Operations()   # creating main object
+
+    main_file = open(s_scv_file)
+    reader = csv.reader(main_file)      # csv reader to read all data
+
+    ls_fixed_data = count_data.fix_csv(csv_file=s_scv_file, col_num=0)     # fix the main data (deleting first column)
+    if (_DBG9_):
+        for row in ls_fixed_data:
+            print(row)
+
 
     counter = c.Operations       # creating main object
 
