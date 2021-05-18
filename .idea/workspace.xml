@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="going trough columns of data file">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="turning off the main debugger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <recent name="C:\Avrage-Death-Rate\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tests">
+  <component name="RunManager" selected="Python.main">
     <configuration name="run_tests" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="Avrage-Death-Rate" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tests" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python.count" />
         <item itemvalue="Batch.run_tests" />
         <item itemvalue="Python.main (1)" />
@@ -176,41 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00056" summary=".">
-      <created>1620380797370</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1620380797370</updated>
-    </task>
-    <task id="LOCAL-00057" summary="deleting the last argument in fix_csv function and cleaning this class function">
-      <created>1620386651049</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1620386651049</updated>
-    </task>
-    <task id="LOCAL-00058" summary="initial commit">
-      <created>1620387582010</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1620387582010</updated>
-    </task>
-    <task id="LOCAL-00059" summary="initial commit">
-      <created>1620462457408</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1620462457409</updated>
-    </task>
-    <task id="LOCAL-00060" summary="updating classes test count">
-      <created>1620462525367</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1620462525367</updated>
     </task>
     <task id="LOCAL-00061" summary="initial commit">
       <created>1620462543254</created>
@@ -520,7 +485,42 @@
       <option name="project" value="LOCAL" />
       <updated>1621341064031</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="get list of ready data">
+      <created>1621341201134</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1621341201134</updated>
+    </task>
+    <task id="LOCAL-00106" summary="deleting useless and code">
+      <created>1621341922578</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1621341922578</updated>
+    </task>
+    <task id="LOCAL-00107" summary="adding globals via object, lists">
+      <created>1621341986630</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1621341986630</updated>
+    </task>
+    <task id="LOCAL-00108" summary="prototyping main">
+      <created>1621342019691</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1621342019691</updated>
+    </task>
+    <task id="LOCAL-00109" summary="turning off the main debugger">
+      <created>1621343628290</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1621343628290</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -571,11 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updating classes test count" />
-    <MESSAGE value="update main program" />
-    <MESSAGE value="adding functions to main" />
-    <MESSAGE value="update README" />
-    <MESSAGE value="update count class and tests" />
     <MESSAGE value="updating tests" />
     <MESSAGE value="adding debuggers" />
     <MESSAGE value="deleting unnecessary main" />
@@ -596,6 +591,11 @@
     <MESSAGE value="update main tests.py" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="going trough columns of data file" />
-    <option name="LAST_COMMIT_MESSAGE" value="going trough columns of data file" />
+    <MESSAGE value="get list of ready data" />
+    <MESSAGE value="deleting useless and code" />
+    <MESSAGE value="adding globals via object, lists" />
+    <MESSAGE value="prototyping main" />
+    <MESSAGE value="turning off the main debugger" />
+    <option name="LAST_COMMIT_MESSAGE" value="turning off the main debugger" />
   </component>
 </project>
