@@ -28,57 +28,6 @@ _DBG9_ = True						# Standard debug
 
 
 #======================================================================
-#   FUNCTIONS:
-#======================================================================
-
-def read_file(csv_file_name):
-
-    '''
-        in:     csv_csv_file_name:  name of a csv file with data,
-
-        change blank places to '0'
-
-        out:    ls_data:    list of all the data that
-    '''
-
-    file = open(csv_file_name, 'r')
-
-    read_data = csv.reader(file)
-
-    for row in read_data:
-        del row[0]
-        for i in row:
-            if (i == ''):
-                #i = '0'
-                row.insert(row.index(i), '0')
-                if (_DBG9_): print('i =', i)
-
-                pass
-
-            else:
-                pass
-
-        if (_DBG9_): print(row)
-
-    return
-
-
-
-def main():
-    '''
-        in:
-
-
-
-        out:
-    '''
-    ls_data = []
-
-    return
-
-
-
-#======================================================================
 #   MAIN:
 #======================================================================
 
