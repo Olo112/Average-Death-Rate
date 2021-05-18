@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="update main tests">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/count.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/count.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,13 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00051" summary="add main data source and run tests program">
-      <created>1620380264072</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1620380264073</updated>
     </task>
     <task id="LOCAL-00052" summary="update count and add Operations class">
       <created>1620380329219</created>
@@ -520,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621191399052</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="start adding column function">
+      <created>1621192517218</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1621192517218</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -571,7 +570,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update README.md" />
     <MESSAGE value="add license" />
     <MESSAGE value="deleting the last argument in fix_csv function and cleaning this class function" />
     <MESSAGE value="updating classes test count" />
@@ -596,6 +594,7 @@
     <MESSAGE value="delete the first row of main data" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="update main tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="update main tests" />
+    <MESSAGE value="start adding column function" />
+    <option name="LAST_COMMIT_MESSAGE" value="start adding column function" />
   </component>
 </project>
