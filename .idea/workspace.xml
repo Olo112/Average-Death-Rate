@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="update README.md" />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00071" summary="update count class and tests">
-      <created>1620632974102</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1620632974102</updated>
     </task>
     <task id="LOCAL-00072" summary="initial commit">
       <created>1620633442064</created>
@@ -517,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621348736725</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary=".">
+      <created>1621349497608</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1621349497608</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -587,12 +587,12 @@
     <MESSAGE value="finishing plotting" />
     <MESSAGE value="displaying data chart" />
     <MESSAGE value="adding figure of data chart" />
-    <MESSAGE value="." />
     <MESSAGE value="cleaning src/main.py" />
     <MESSAGE value="clean count.py class" />
     <MESSAGE value="update main figure" />
     <MESSAGE value="show legend on chart" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

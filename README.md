@@ -112,4 +112,4 @@ plt.legend()
 ```
 
 The final project result:<br>
-<img src='src-screenshots/src_figure_00.png' width='300' height='225'>
+<img src='src-screenshots/src_figure_00.png' width='350' height='250'>
