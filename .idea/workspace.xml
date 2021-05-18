@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="adding figure of data chart">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
@@ -176,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00064" summary="initial commit">
-      <created>1620474038324</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1620474038324</updated>
     </task>
     <task id="LOCAL-00065" summary="update main tests">
       <created>1620475205270</created>
@@ -520,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621344204205</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary=".">
+      <created>1621344266481</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1621344266481</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -581,7 +581,6 @@
     <MESSAGE value="test update: convert all values to type float" />
     <MESSAGE value="finish function that converts to float" />
     <MESSAGE value="make a small todo for creating a summing function in count.Operations() class" />
-    <MESSAGE value="." />
     <MESSAGE value="delete the first row of main data" />
     <MESSAGE value="update main tests" />
     <MESSAGE value="start adding column function" />
@@ -596,6 +595,7 @@
     <MESSAGE value="finishing plotting" />
     <MESSAGE value="displaying data chart" />
     <MESSAGE value="adding figure of data chart" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding figure of data chart" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

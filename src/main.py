@@ -22,7 +22,7 @@ s_scv_file = 'liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv'        # file na
 
 _DBG0_ = True						# Errors
 _DBG1_ = True						# Warnings
-_DBG9_ = True						# Standard debug
+_DBG9_ = False						# Standard debug
 
 
 
@@ -90,8 +90,7 @@ if (__name__ == '__main__'):
 
 
     # displaying the data on graph (creating plots):
-
-    # 1. naming labels of OX, OY and window title:
+    # 1. naming labels of OX, OY and chart title:
     plt.title("ADR data chart from 2015")
     plt.xlabel('Years')         # OX label: years from 2015
     plt.ylabel('ADR')           # OY label: ADR (short: average death rate)
