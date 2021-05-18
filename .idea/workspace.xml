@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="clean count.py class">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="show legend on chart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,20 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00067" summary="initial commit">
-      <created>1620591765631</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1620591765632</updated>
-    </task>
-    <task id="LOCAL-00068" summary="initial commit">
-      <created>1620630850344</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1620630850344</updated>
     </task>
     <task id="LOCAL-00069" summary="update README">
       <created>1620632938305</created>
@@ -521,7 +506,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621344743286</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="update main figure">
+      <created>1621348286446</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1621348286446</updated>
+    </task>
+    <task id="LOCAL-00117" summary="show legend on chart">
+      <created>1621348425505</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1621348425505</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -572,8 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated tests" />
-    <MESSAGE value="deleted uncommited changes" />
     <MESSAGE value="deleted shelved patch" />
     <MESSAGE value="adding 0's to blank places in lists" />
     <MESSAGE value="add a blank filling function" />
@@ -597,6 +594,8 @@
     <MESSAGE value="." />
     <MESSAGE value="cleaning src/main.py" />
     <MESSAGE value="clean count.py class" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean count.py class" />
+    <MESSAGE value="update main figure" />
+    <MESSAGE value="show legend on chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="show legend on chart" />
   </component>
 </project>
