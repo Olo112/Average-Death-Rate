@@ -126,7 +126,7 @@ describes the number of rows and columns:
 
     figure, (axis0, axis1) = plt.subplots(nrows=2, ncols=1)      # In this project, this was made using these args
 ```
-
+<br>
 
 `axis0` and `axis1` are describing axis that the plot is on. Then for plot method, we don't use `plt.plot()`, label or
 titles because we assign different plots to different axis (in this case):
