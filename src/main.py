@@ -92,23 +92,28 @@ if (__name__ == '__main__'):
     ls_main_data = data_counter.sum_data_columns(ls_float_data)     # going through columns and counting average
 
 
+    figure, (axis0, axis1) = plt.subplots(nrows=2, ncols=1)
+
 
     # displaying the data on graph (creating plots):
     # 1. naming labels of OX, OY and chart title:
-    plt.title("ADR data chart from 2015")
-    plt.xlabel('Years')         # OX label: years from 2015
-    plt.ylabel('ADR')           # OY label: ADR (short: average death rate)
+    axis0.set_title("ADR data charts 2015 - 2021")
+    axis0.set_xlabel('Years')         # OX label: years from 2015
+    axis0.set_ylabel('ADR')           # OY label: ADR (short: average death rate)
+
+    axis0.plot(ls_years, ls_main_data, label='ADR', marker='o')      # OX data, OY data
+    axis0.legend()
+    axis0.grid(True)
 
 
-    # 2. adding plot:
-    plt.plot(ls_years, ls_main_data, label='ADR', marker='o')      # OX data, OY data,
+    axis1.set_xlabel('Years (2020 - 2021+)')         # OX label: years from 2015
+    axis1.set_ylabel('ADR')           # OY label: ADR (short: average death rate)
 
-    # 2. displaying (with grid and legend):
-    plt.legend()
-    plt.grid(True)
-    plt.show()
+    axis1.plot(ls_years[5:], ls_main_data[5:], label='ADR', marker='o')
+    axis1.legend()
+    axis1.grid(True)
 
-
+    plt.show()      # 2. displaying plots (with grid and legend):
 
 #======================================================================
 #   END OF FILE
