@@ -109,7 +109,7 @@ if (__name__ == '__main__'):
     axis1.set_xlabel('Years (2020 - 2021+)')         # OX label: years from 2015
     axis1.set_ylabel('ADR')           # OY label: ADR (short: average death rate)
 
-    axis1.plot(ls_years[5:], ls_main_data[5:], label='ADR', marker='o')
+    axis1.plot(ls_years[5:], ls_main_data[5:], label='ADR', marker='o', color='orange')
     axis1.legend()
     axis1.grid(True)
 
