@@ -65,7 +65,7 @@ Charts show data where data arrays are the same. First data array that goes on t
 mentioning data types (except for `str` and `bool`). The few things to mention within the code in
 src directory are here just in case that you want it to work:
 
-<br>
+<br><br>
 
 ### Debuggers
 
@@ -88,7 +88,7 @@ line to see clearly if the next operation made was successful:
 ```
 
 
-<br>
+<br><br>
 
 ### Screenshots and generating plots
 All of these screenshots are made from a data science library to visualize data, matplotlib. On matplotlib, I
