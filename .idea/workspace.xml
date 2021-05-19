@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="create a subplot">
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -177,27 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00076" summary="adding debuggers">
-      <created>1620655036824</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1620655036824</updated>
-    </task>
-    <task id="LOCAL-00077" summary="deleting unnecessary main">
-      <created>1620656477873</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1620656477873</updated>
-    </task>
-    <task id="LOCAL-00078" summary="update tests">
-      <created>1620657337097</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1620657337098</updated>
     </task>
     <task id="LOCAL-00079" summary="initial commit">
       <created>1620673506572</created>
@@ -521,7 +499,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621422267847</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="add new graph figure">
+      <created>1621429047910</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1621429047910</updated>
+    </task>
+    <task id="LOCAL-00126" summary="move ls_years generation code">
+      <created>1621429243426</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1621429243427</updated>
+    </task>
+    <task id="LOCAL-00127" summary="create a subplot">
+      <created>1621429270248</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1621429270248</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -572,9 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add a blank filling function" />
-    <MESSAGE value="test update: convert all values to type float" />
-    <MESSAGE value="finish function that converts to float" />
     <MESSAGE value="make a small todo for creating a summing function in count.Operations() class" />
     <MESSAGE value="delete the first row of main data" />
     <MESSAGE value="update main tests" />
@@ -597,6 +593,9 @@
     <MESSAGE value="." />
     <MESSAGE value="update data file" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add new graph figure" />
+    <MESSAGE value="move ls_years generation code" />
+    <MESSAGE value="create a subplot" />
+    <option name="LAST_COMMIT_MESSAGE" value="create a subplot" />
   </component>
 </project>
