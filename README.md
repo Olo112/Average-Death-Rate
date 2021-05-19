@@ -73,8 +73,8 @@ While checking if everything goes alright, I have used DBG's in my code and most
 are turned off. To turn them on, you can simply just change the DBG state:
 
 ```python
-_DBG8_ = True                   # Other
-_DBG9_ = True                   # Standard debug
+    _DBG8_ = True                   # Other
+    _DBG9_ = True                   # Standard debug
 ```
 
 
@@ -84,7 +84,7 @@ function, I could see if the operation was made correctly and at the same time, 
 line to see clearly if the next operation made was successful:
 
 ```python
-if (_DBG9_): print('ls =', ls, '\n\n')
+    if (_DBG9_): print('ls =', ls, '\n\n')
 ```
 
 
@@ -97,19 +97,77 @@ set label of `OX` axis to 'Years' and `OY` axis to 'ADR'. Of course, the data fo
 plot function to show data on both, `OX` and `OY` axis and decorated them a bit by adding marker argument to plot
 function. I have also added a label to the graph:
 ```python
-plt.title("ADR data chart from 2015")
-plt.xlabel('Years')         # OX label: years from 2015
-plt.ylabel('ADR')           # OY label: ADR (short: average death rate)
+    plt.title("ADR data chart from 2015")
+    plt.xlabel('Years')         # OX label: years from 2015
+    plt.ylabel('ADR')           # OY label: ADR (short: average death rate)
 
 
-# 2. adding plot:
-plt.plot(ls_years, ls_main_data, label='ADR', marker='o')      # OX data, OY data,
+    # 2. adding plot:
+    plt.plot(ls_years, ls_main_data, label='ADR', marker='o')      # OX data, OY data,
 ```
 
 To show the label of main graph, you need to add the following function:
 ```python
-plt.legend()
+    plt.legend()
 ```
 
-The final project result:<br>
+The final result:<br>
 <img src='src-screenshots/src_figure_00.png' width='350' height='250'>
+
+
+<br>
+
+The data should be displayed on two plots (or subplots). To do that, `subplots()` method was used for this. There are 
+two subplots, and one column. To divide this into two rows and one column, the `subplots()` takes two arguments which
+describes the number of rows and columns:
+
+```python
+    fig, ax = plt.subplots(nrows=row_num, ncols=col_num)
+
+    figure, (axis0, axis1) = plt.subplots(nrows=2, ncols=1)      # In this project, this was made using these args
+```
+
+
+`axis0` and `axis1` are describing axis that the plot is on. Then for plot method, we don't use `plt.plot()`, label or
+titles because we assign different plots to different axis (in this case):
+
+```python
+    figure, (axis0, axis1) = plt.subplots(nrows=2, ncols=1)
+
+    axis0.set_title("ADR data charts 2015 - 2021")
+    axis0.set_xlabel('Years')         # OX label: years from 2015
+    axis0.set_ylabel('ADR')           # OY label: ADR (short: average death rate)
+
+    axis0.plot(ls_years, ls_main_data, label='ADR', marker='o')      # OX data, OY data
+    axis0.legend()
+    axis0.grid(True)
+    
+    
+    
+    axis1.set_xlabel('Years (2020 - 2021+)')         # OX label: years from 2020
+    axis1.set_ylabel('ADR')           # OY label: ADR (short: average death rate)
+
+    axis1.plot(ls_second_years, ls_main_data[5:], label='ADR', marker='o', color='orange')
+    axis1.legend()
+    axis1.grid(True)
+    
+    plt.show()
+```
+
+At the end, we give `plt.show()` method because we want to display the whole data chart. The final result is here:<br>
+
+<img src='src-screenshots/src_Figure_01.png' width='540' height='500'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
