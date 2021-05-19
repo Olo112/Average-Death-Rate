@@ -68,6 +68,16 @@ if (__name__ == '__main__'):
     print('\n\n')
 
 
+    ls_years = []
+    year = 2015
+    for i in range(len(ls_float_data[0])):
+        ls_years.append(year)
+        year = year + 1
+
+
+    ls_second_years = ls_years[5:]
+    print('ls_second_years =', ls_second_years, '\n\n')
+
     del ls_float_data[0]       # deleting years list ls_filled_float_data[0]
 
     if (_DBG9_):
@@ -75,12 +85,6 @@ if (__name__ == '__main__'):
             print(row)
         print('\n\n')
 
-
-    ls_years = []
-    year = 2015
-    for i in range(len(ls_float_data[0])):
-        ls_years.append(year)
-        year = year + 1
 
     if (_DBG9_): print('years =', ls_years, '\n\n')
 
