@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="update data file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,13 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00074" summary="initial commit">
-      <created>1620635372533</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1620635372534</updated>
     </task>
     <task id="LOCAL-00075" summary="initial commit">
       <created>1620654673090</created>
@@ -520,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621366791446</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="initial commit">
+      <created>1621422007422</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1621422007423</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -579,7 +577,6 @@
     <MESSAGE value="update main tests" />
     <MESSAGE value="start adding column function" />
     <MESSAGE value="update main tests.py" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="going trough columns of data file" />
     <MESSAGE value="get list of ready data" />
     <MESSAGE value="deleting useless and code" />
@@ -596,6 +593,7 @@
     <MESSAGE value="update README.md" />
     <MESSAGE value="." />
     <MESSAGE value="update data file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update data file" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
