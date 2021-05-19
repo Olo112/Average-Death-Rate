@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="update image with subplots">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,13 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00081" summary="cleaned count.py">
-      <created>1620712895057</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1620712895057</updated>
     </task>
     <task id="LOCAL-00082" summary="updated tests">
       <created>1620712905151</created>
@@ -521,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621429422717</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary=".">
+      <created>1621429491411</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1621429491411</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -589,7 +590,6 @@
     <MESSAGE value="update main figure" />
     <MESSAGE value="show legend on chart" />
     <MESSAGE value="update README.md" />
-    <MESSAGE value="." />
     <MESSAGE value="update data file" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="add new graph figure" />
@@ -597,6 +597,7 @@
     <MESSAGE value="create a subplot" />
     <MESSAGE value="change the color of the second subplot" />
     <MESSAGE value="update image with subplots" />
-    <option name="LAST_COMMIT_MESSAGE" value="update image with subplots" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
