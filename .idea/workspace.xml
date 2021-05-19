@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="." />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="update data file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +41,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/demo/liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/demo/main.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/count.py" root0="FORCE_HIGHLIGHTING" />
@@ -173,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00073" summary="updating tests">
-      <created>1620634746432</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1620634746432</updated>
     </task>
     <task id="LOCAL-00074" summary="initial commit">
       <created>1620635372533</created>
@@ -517,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621366487839</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="update data file">
+      <created>1621366791446</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1621366791446</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -568,7 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding 0's to blank places in lists" />
     <MESSAGE value="add a blank filling function" />
     <MESSAGE value="test update: convert all values to type float" />
     <MESSAGE value="finish function that converts to float" />
@@ -593,6 +595,7 @@
     <MESSAGE value="show legend on chart" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="update data file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update data file" />
   </component>
 </project>
