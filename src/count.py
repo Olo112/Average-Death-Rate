@@ -27,7 +27,6 @@ class Operations:
     def __init__(self):
         # initializing class
 
-
         return
 
 
