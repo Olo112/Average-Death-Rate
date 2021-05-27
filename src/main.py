@@ -12,7 +12,7 @@ import count as c
 #   GLOBALS:
 #======================================================================
 
-s_scv_file = 'liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv'        # file name
+s_csv_file = 'liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv'        # file name
 
 
 
@@ -35,14 +35,14 @@ if (__name__ == '__main__'):
 
     data_counter = c.Operations()   # creating main object
 
-    main_file = open(s_scv_file)
+    main_file = open(s_csv_file)
     reader = csv.reader(main_file)      # creating a csv reader to read all data
 
     ls_float_data = []
 
 
 
-    ls_fixed_data = data_counter.fix_csv(csv_file=s_scv_file, col_num=0)     # fix the main data (deleting first column)
+    ls_fixed_data = data_counter.fix_csv(csv_file=s_csv_file, col_num=0)     # fix the main data (deleting first column)
     if (_DBG9_):
         for row in ls_fixed_data:
             print(row)
