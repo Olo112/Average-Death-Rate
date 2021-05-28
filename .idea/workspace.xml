@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="" />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,13 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00088" summary="add a blank filling function">
-      <created>1620838261528</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1620838261528</updated>
     </task>
     <task id="LOCAL-00089" summary="initial commit">
       <created>1620838268141</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622142992244</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="initial commit">
+      <created>1622230423152</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1622230423152</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -584,7 +584,6 @@
     <MESSAGE value="update main figure" />
     <MESSAGE value="show legend on chart" />
     <MESSAGE value="update data file" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="add new graph figure" />
     <MESSAGE value="move ls_years generation code" />
     <MESSAGE value="create a subplot" />
@@ -594,6 +593,7 @@
     <MESSAGE value="update main class and data screenshot" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="some corrections.." />
-    <option name="LAST_COMMIT_MESSAGE" value="some corrections.." />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
