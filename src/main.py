@@ -22,6 +22,7 @@ s_csv_file = 'liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv'        # file na
 
 _DBG0_ = True						# Errors
 _DBG1_ = True						# Warnings
+_DBG8_ = False                      # Other issues
 _DBG9_ = False						# Standard debug
 
 
