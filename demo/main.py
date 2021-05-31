@@ -102,11 +102,11 @@ def read_data(csv_file_name, row_num):
 
 def collect_data(csv_file_name, years_num):
     '''
-    input:
-        file_name:  source of data;
+        input:
+            file_name:  source of data;
 
-    output:
-        ls_global_data
+        output:
+            ls_global_data
     '''
 
     global ls_global_data

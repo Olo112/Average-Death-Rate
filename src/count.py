@@ -22,7 +22,6 @@ _DBG9_ = False						# Standard debug
 #======================================================================
 
 class Operations:
-    # operation class
 
     def __init__(self):
         # initializing class
@@ -67,7 +66,7 @@ class Operations:
 
             fill empty spaces (elements which have '') with '0',
 
-            out:    ls_fixed_blank
+            out:    ls_fixed_blank;
         '''
 
 
