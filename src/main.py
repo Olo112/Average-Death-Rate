@@ -20,6 +20,20 @@ s_csv_file = 'liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv'        # file na
 #   DEBUGGERS:
 #---------------------------------------------------------
 
+'''
+    HowTo use:
+        for each single line statement:
+            if ([debugger]):    [statement]
+        
+        for each multi line statement:
+            if ([debugger]):
+                [statement_00]
+                [statement_01]
+                [statement_02]
+                ...
+'''
+
+
 _DBG0_ = True						# Errors
 _DBG1_ = True						# Warnings
 _DBG8_ = False                      # Other issues
@@ -33,7 +47,6 @@ _DBG9_ = False						# Standard debug
 
 if (__name__ == '__main__'):
 
-
     data_counter = c.Operations()   # creating main object
 
     main_file = open(s_csv_file)
@@ -44,29 +57,13 @@ if (__name__ == '__main__'):
 
 
     ls_fixed_data = data_counter.fix_csv(csv_file=s_csv_file, col_num=0)     # fix the main data (deleting first column)
-    if (_DBG9_):
-        for row in ls_fixed_data:
-            print(row)
-
-        print('\n\n')
-
-
     ls_filled_data = data_counter.zero_to_blank(ls_fixed_data)   # filling blank with 0 digit
-    if (_DBG9_):
-        for row in ls_filled_data:
-            print(row)
 
-        print('\n\n')
 
 
     for row in ls_filled_data:
         row = [float(data_val) for data_val in row]     # converting all data vaules to float
         ls_float_data.append(row)
-
-
-        if (_DBG9_): print(row)
-
-    print('\n\n')
 
 
     ls_years = []
@@ -75,18 +72,9 @@ if (__name__ == '__main__'):
         ls_years.append(year)
         year = year + 1
 
-
     ls_second_years = ls_years[5:]
-
     del ls_float_data[0]       # deleting years list ls_filled_float_data[0]
 
-    if (_DBG9_):
-        for row in ls_float_data:
-            print(row)
-        print('\n\n')
-
-
-    if (_DBG9_): print('years =', ls_years, '\n\n')
 
 
     ls_main_data = data_counter.sum_data_columns(ls_float_data)     # going through columns and counting average
