@@ -108,7 +108,7 @@ class Operations:
 
 
         for row in ls_data:
-            row = [float(value) for value in row]
+            row = [float(value) for value in row]       # changing all values in a list to float type
             ls_conv_data.append(row)
 
 
@@ -131,8 +131,7 @@ class Operations:
         ls_main_data = []
 
 
-        # change main data_file to numpy array:
-        ls_data_arrays = np.array(data_file)
+        ls_data_arrays = np.array(data_file)    # change main data_file to numpy array
 
         if (_DBG9_):
             for ls in ls_data_arrays.T:
