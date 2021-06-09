@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="delete debuggers in code and add HowTo for them" />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00097" summary="initial commit">
-      <created>1621073726795</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1621073726795</updated>
     </task>
     <task id="LOCAL-00098" summary="initial commit">
       <created>1621190627121</created>
@@ -518,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623016806613</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary=".">
+      <created>1623017179611</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1623017179611</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -590,10 +592,10 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="cleaning the code" />
     <MESSAGE value="adding debugger: _DBG8_ (set to False)" />
-    <MESSAGE value="." />
     <MESSAGE value="clean main operations class" />
     <MESSAGE value="clean the last lines" />
     <MESSAGE value="delete debuggers in code and add HowTo for them" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete debuggers in code and add HowTo for them" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
