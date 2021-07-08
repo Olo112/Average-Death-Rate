@@ -72,14 +72,14 @@ if (__name__ == '__main__'):
         ls_years.append(year)
         year = year + 1
 
+
+
     ls_second_years = ls_years[5:]
     del ls_float_data[0]       # deleting years list ls_filled_float_data[0]
 
 
 
     ls_main_data = data_counter.sum_data_columns(ls_float_data)     # going through columns and counting average
-
-
 
     figure, (axis0, axis1) = plt.subplots(nrows=2, ncols=1)     # preparing subplots
 
