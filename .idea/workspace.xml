@@ -177,13 +177,6 @@
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
     </task>
-    <task id="LOCAL-00106" summary="deleting useless and code">
-      <created>1621341922578</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1621341922578</updated>
-    </task>
     <task id="LOCAL-00107" summary="adding globals via object, lists">
       <created>1621341986630</created>
       <option name="number" value="00107" />
@@ -520,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625780355543</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary=".">
+      <created>1625869665463</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1625869665464</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="UnknownFeatures">
