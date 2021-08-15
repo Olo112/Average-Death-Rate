@@ -30,6 +30,7 @@ class Operations:
 
 
 
+
     def fix_csv(self, csv_file, col_num):
         '''
             in:
@@ -57,6 +58,7 @@ class Operations:
 
 
         return ls_csv_data
+
 
 
 
@@ -92,6 +94,7 @@ class Operations:
 
 
 
+
     def to_float(self, ls_data):
         '''
             in:     ls_data:    list of data,
@@ -113,6 +116,7 @@ class Operations:
 
 
         return ls_conv_data
+
 
 
 
