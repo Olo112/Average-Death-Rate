@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="" />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,12 +40,12 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/demo/liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/demo/main.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/count.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/tests.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/liczba_zgonow_w_rejestrze_od_1_wrzesnia_2015.csv" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/count.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/demo/main.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1peg9kJTOhQqBbZ4jTjPq45YlTG" />
   <component name="ProjectViewState">
@@ -174,27 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00111" summary="displaying data chart">
-      <created>1621344090308</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1621344090308</updated>
-    </task>
-    <task id="LOCAL-00112" summary="adding figure of data chart">
-      <created>1621344204205</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1621344204205</updated>
-    </task>
-    <task id="LOCAL-00113" summary=".">
-      <created>1621344266481</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1621344266481</updated>
     </task>
     <task id="LOCAL-00114" summary="cleaning src/main.py">
       <created>1621344475441</created>
@@ -518,7 +499,28 @@
       <option name="project" value="LOCAL" />
       <updated>1627127036608</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="initial commit">
+      <created>1629069101561</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1629069101561</updated>
+    </task>
+    <task id="LOCAL-00161" summary=".">
+      <created>1629069173552</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1629069173552</updated>
+    </task>
+    <task id="LOCAL-00162" summary="initial commit">
+      <created>1629069432137</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1629069432137</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="UnknownFeatures">
