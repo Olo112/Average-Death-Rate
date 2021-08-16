@@ -57,7 +57,7 @@ if (__name__ == '__main__'):
 
 
     ls_fixed_data = data_counter.fix_csv(csv_file=s_csv_file, col_num=0)     # fix the main data (deleting first column)
-    ls_filled_data = data_counter.zero_to_blank(ls_fixed_data)   # filling blank with 0 digit
+    ls_filled_data = data_counter.zero_to_blank(ls_fixed_data)               # filling blank with 0 digit
 
 
 
