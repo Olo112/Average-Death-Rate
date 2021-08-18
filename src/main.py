@@ -91,14 +91,17 @@ if (__name__ == '__main__'):
     axis0.set_xlabel('Years')         # OX label: years from 2015
     axis0.set_ylabel('ADR')           # OY label: ADR (short: average death rate)
 
+
     axis0.plot(ls_years, ls_main_data, label='ADR (2015 - 2021)', marker='o')      # OX data, OY data
     axis0.legend()      # displaying legend and grid for first chart
     axis0.grid(True)
 
 
+
     # data and title of second chart:
     axis1.set_xlabel('Years (2020 - 2021+)')        # OX label: years 2020+
     axis1.set_ylabel('ADR')                         # OY label: ADR (short: average death rate)
+
 
     axis1.plot(ls_second_years, ls_main_data[5:], label='ADR (2020 - 2021+)', marker='o', color='orange')
     axis1.legend()      # displaying legend and grid for second chart
