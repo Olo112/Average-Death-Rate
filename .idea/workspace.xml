@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="update README.md">
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,20 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00129" summary="update image with subplots">
-      <created>1621429422717</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1621429422717</updated>
-    </task>
-    <task id="LOCAL-00130" summary=".">
-      <created>1621429491411</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1621429491411</updated>
     </task>
     <task id="LOCAL-00131" summary=".">
       <created>1621430664663</created>
@@ -521,7 +506,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630622338249</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="testing standard deviation plotting">
+      <created>1630624426726</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1630624426726</updated>
+    </task>
+    <task id="LOCAL-00179" summary=".">
+      <created>1630625860276</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1630625860276</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -572,7 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="turning off the main debugger" />
     <MESSAGE value="finishing plotting" />
     <MESSAGE value="displaying data chart" />
     <MESSAGE value="adding figure of data chart" />
@@ -593,10 +591,11 @@
     <MESSAGE value="clean main operations class" />
     <MESSAGE value="clean the last lines" />
     <MESSAGE value="delete debuggers in code and add HowTo for them" />
-    <MESSAGE value="." />
     <MESSAGE value="initial commit" />
     <MESSAGE value="adding standard deviation plot" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="testing standard deviation plotting" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
