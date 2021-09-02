@@ -4,6 +4,7 @@
 
 import csv
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 #---------------------------------------------------------
@@ -153,6 +154,124 @@ class Operations:
 
 
         return ls_main_data
+
+
+
+
+
+
+    def sqrtn( self, x , power ):
+        """
+            input:
+                x:   value which will be operated;
+        """
+
+        operation_val = (  x ** ( 1 / power )  )
+
+
+        return operation_val
+
+
+
+
+    def count_average( self, ls_data : list ):
+        """
+            input:
+                ls_data:    list of data;
+
+            output:
+                average_val:    average value of the list;
+        """
+
+        n = len( ls_data )      # length of the list
+
+        average_val = (  sum( ls_data ) / n  )      # counting average value
+
+
+        return average_val
+
+
+
+
+    def count_sum_val( self , ls_x : list, x_average ):
+        """
+            input:
+                ls_x:   list of data to count square of sum of difference of i-th element and x_average,
+                x_average:      average value;
+
+            output:
+                summed_val: sum value of list;
+        """
+
+        ls_val = []
+
+
+        for x in ls_x:
+            sum_val = ( x - x_average )**2      # y(x) = sum(x_i - x_average)^2
+            ls_val.append( sum_val )
+
+
+        sum_val = sum( ls_val )
+
+        return sum_val
+
+
+
+
+    def count_std_dev( self , ls_x : list ):
+        """
+            input:
+                ls_x:   list of x values;
+
+            output:
+                std_dev_val:    value of standard deviation;
+        """
+
+        # standard deviation formula:   sqrt( ( 1/n-1 ) * sum ( x_i - x_average )**2 )
+
+
+        n = len( ls_x )
+
+
+        # x_average
+        average_val = self.count_average( ls_x )                    # count average value
+
+        # sum ( x_i - x_average )
+        summed_val = self.count_sum_val( ls_x , average_val )       # count summed value
+
+
+        std_dev_val = self.sqrtn( ( 1 / (n-1) ) * summed_val , 2 )
+
+
+
+
+        return std_dev_val
+
+
+
+    def display_std_dev( self, ls : list ):
+
+        """
+            input:
+                ls:     list of given data;
+
+            output:
+                displays standard deviation
+        """
+
+        ls_std_dev = []
+        n = len( ls )
+
+        std_dev_val = self.count_std_dev(ls)
+
+
+        for i in range( n+1 ):
+            ls_std_dev.append(std_dev_val)
+
+
+        plt.plot( ls_std_dev )
+
+        return
 
 
 
