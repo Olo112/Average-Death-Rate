@@ -65,7 +65,7 @@
       <recent name="C:\Avrage-Death-Rate\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="run_tests" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="Average-Death-Rate" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.count" />
         <item itemvalue="Batch.run_tests" />
@@ -177,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00125" summary="add new graph figure">
-      <created>1621429047910</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1621429047910</updated>
     </task>
     <task id="LOCAL-00126" summary="move ls_years generation code">
       <created>1621429243426</created>
@@ -521,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629315129005</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="initial commit">
+      <created>1630421364319</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1630421364319</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="UnknownFeatures">
