@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/count.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/count.py" afterDir="false" />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="adding standard deviation plot">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,20 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00126" summary="move ls_years generation code">
-      <created>1621429243426</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1621429243427</updated>
-    </task>
-    <task id="LOCAL-00127" summary="create a subplot">
-      <created>1621429270248</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1621429270248</updated>
     </task>
     <task id="LOCAL-00128" summary="change the color of the second subplot">
       <created>1621429395670</created>
@@ -521,7 +506,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630421364319</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="initial commit">
+      <created>1630621981448</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1630621981448</updated>
+    </task>
+    <task id="LOCAL-00176" summary="adding standard deviation plot">
+      <created>1630622052935</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1630622052935</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -572,7 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prototyping main" />
     <MESSAGE value="turning off the main debugger" />
     <MESSAGE value="finishing plotting" />
     <MESSAGE value="displaying data chart" />
@@ -597,6 +595,7 @@
     <MESSAGE value="delete debuggers in code and add HowTo for them" />
     <MESSAGE value="." />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="adding standard deviation plot" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding standard deviation plot" />
   </component>
 </project>

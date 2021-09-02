@@ -161,7 +161,9 @@ At the end, we give `plt.show()` method because we want to display the whole dat
 
 
 
+## Updates:
 
+03.09: adding standard deviation plot
 
 
 
