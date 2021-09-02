@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="adding standard deviation plot">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="update README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00128" summary="change the color of the second subplot">
-      <created>1621429395670</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1621429395670</updated>
     </task>
     <task id="LOCAL-00129" summary="update image with subplots">
       <created>1621429422717</created>
@@ -520,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630622052935</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="update README.md">
+      <created>1630622338249</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1630622338249</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -586,7 +587,6 @@
     <MESSAGE value="change the color of the second subplot" />
     <MESSAGE value="update image with subplots" />
     <MESSAGE value="update main class and data screenshot" />
-    <MESSAGE value="update README.md" />
     <MESSAGE value="some corrections.." />
     <MESSAGE value="cleaning the code" />
     <MESSAGE value="adding debugger: _DBG8_ (set to False)" />
@@ -596,6 +596,7 @@
     <MESSAGE value="." />
     <MESSAGE value="initial commit" />
     <MESSAGE value="adding standard deviation plot" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding standard deviation plot" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
 </project>

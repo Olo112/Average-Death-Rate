@@ -93,6 +93,9 @@ if (__name__ == '__main__'):
 
 
     axis0.plot(ls_years, ls_main_data, label='ADR (2015 - 2021)', marker='o')      # OX data, OY data
+
+    # data_counter.display_std_dev( ls_years )
+
     axis0.legend()      # displaying legend and grid for first chart
     axis0.grid(True)
 
