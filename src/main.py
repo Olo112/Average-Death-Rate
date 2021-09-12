@@ -99,6 +99,7 @@ if (__name__ == '__main__'):
 
 
 
+
     # data and title of second chart:
     axis1.set_xlabel('Years (2020 - 2021+)')        # OX label: years 2020+
     axis1.set_ylabel('ADR')                         # OY label: ADR (short: average death rate)
