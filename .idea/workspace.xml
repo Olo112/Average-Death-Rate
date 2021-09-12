@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="." />
+    <list default="true" id="59567fae-2803-46d1-8f5f-de2e6c18c5a4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,13 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615548820497</updated>
-    </task>
-    <task id="LOCAL-00132" summary="update README.md">
-      <created>1621430675502</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1621430675502</updated>
     </task>
     <task id="LOCAL-00133" summary="update README.md">
       <created>1621430745336</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630625916264</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="initial commit">
+      <created>1630704668069</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1630704668069</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -589,11 +589,11 @@
     <MESSAGE value="clean main operations class" />
     <MESSAGE value="clean the last lines" />
     <MESSAGE value="delete debuggers in code and add HowTo for them" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="adding standard deviation plot" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="testing standard deviation plotting" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
